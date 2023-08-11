@@ -1,6 +1,6 @@
 import Navbar from "../../components/header/Navbar";
 
-const Home = () => {
+const Services = () => {
   return (
     <div>
       <Navbar />
@@ -8,4 +8,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Services;

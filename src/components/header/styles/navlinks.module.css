@@ -1,0 +1,26 @@
+.navlinks-container {
+  display: flex;
+  gap: 50px;
+}
+
+.navlinks {
+  text-transform: uppercase;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.changeLanguage-btn {
+  color: var(--red);
+  border: 2px solid var(--red);
+  padding: 10px;
+  font-weight: bold;
+  background-color: var(--darkGrey);
+}
+
+/* Media query for screens with a width of 750px or lower */
+@media screen and (max-width: 950px) {
+  .navlinks-container {
+    display: none;
+  }
+}

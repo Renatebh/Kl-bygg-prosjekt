@@ -1,13 +1,31 @@
+import { useState } from "react";
 import NavLinks from "./NavLinks";
 import Logo from "./Logo";
+import ChangeLanguageBtn from "./ChangeLanguageBtn";
+import styles from "./styles/navbar.module.css";
+import Hamburger from "./Hamburger";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <div>
-      <h1>Navbar</h1>
+    <header className={styles["header-container"]}>
       <Logo />
-      <NavLinks />
-    </div>
+      <div className={styles["nav-btn-container"]}>
+        {window.innerWidth <= 950 ? (
+          <Hamburger onClick={toggleMenu} />
+        ) : (
+          <>
+            <NavLinks />
+            <ChangeLanguageBtn />
+          </>
+        )}
+      </div>
+    </header>
   );
 };
 
