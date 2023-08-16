@@ -1,0 +1,6 @@
+.contact-btn {
+  display: inline-block;
+  background-color: var(--red);
+  color: var(--white);
+  padding: 1rem 4.375rem;
+}

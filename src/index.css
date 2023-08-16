@@ -16,12 +16,15 @@ body {
 }
 
 :root {
+  font-size: 16px;
+
   /* COLORS */
   --red: #e73819;
   --white: #ffff;
   --grey: #2b2b2b;
   --darkGrey: #252525;
   --black: black;
+  --overlay: rgba(43, 43, 43, 0.69);
 
   /* FONT SIZES HEADINGS */
   --h--step-0: clamp(1.3rem, calc(-0.07rem + 6.65vw), 4rem);

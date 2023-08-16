@@ -1,0 +1,62 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 47.125rem 859px 568px 961px auto;
+  grid-template-areas:
+    "nav"
+    "hero"
+    "services"
+    "job-opportunities"
+    "projects"
+    "footer";
+  min-height: 100vh;
+}
+
+.section-spacing {
+  padding: 0 7rem;
+}
+
+.background-image {
+  position: relative;
+  grid-area: hero;
+  z-index: -1;
+
+  background-image: url(../../images/construction-worke.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--overlay);
+    z-index: -1;
+  }
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.hero {
+  grid-area: hero;
+}
+
+.services {
+  grid-area: services;
+}
+
+.job-opportunities {
+  grid-area: job-opportunities;
+}
+
+.projects {
+  grid-area: projects;
+}
+
+.footer {
+  grid-area: footer;
+}

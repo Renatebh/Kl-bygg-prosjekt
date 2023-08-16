@@ -1,23 +1,22 @@
 .header-container {
-  background-color: var(--darkGrey);
-  height: 150px;
+  height: 9.375rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 3.125rem;
 }
 
 .header-links {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 3.125rem;
 }
 
 @media screen and (max-width: 950px) {
   .header-container {
-    padding: 0 30px;
+    padding: 0 1.875rem;
   }
   .header-links {
-    width: 20px;
+    width: 1.25rem;
   }
 }
