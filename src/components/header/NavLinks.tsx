@@ -1,10 +1,18 @@
 import styles from "./styles/navlinks.module.css";
 import { Link } from "react-router-dom";
 
-const NavLinks = () => {
+interface MenuProps {
+  menuOpen: boolean;
+}
+
+const NavLinks = ({ menuOpen }: MenuProps) => {
   return (
     <nav>
-      <ul className={styles["navlinks-container"]}>
+      <ul
+        className={
+          menuOpen ? styles["navlinks-mobile"] : styles["navlinks-web"]
+        }
+      >
         <li>
           <Link to="/about" className={styles["navlinks"]}>
             Om oss

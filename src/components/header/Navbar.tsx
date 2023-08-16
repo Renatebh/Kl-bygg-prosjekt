@@ -15,15 +15,10 @@ const Navbar = () => {
   return (
     <header className={styles["header-container"]}>
       <Logo />
-      <div className={styles["nav-btn-container"]}>
-        {window.innerWidth <= 950 ? (
-          <Hamburger onClick={toggleMenu} />
-        ) : (
-          <>
-            <NavLinks />
-            <ChangeLanguageBtn />
-          </>
-        )}
+      <div className={styles["header-links"]}>
+        <Hamburger onClick={toggleMenu} />
+        <NavLinks menuOpen={menuOpen} />
+        <ChangeLanguageBtn />
       </div>
     </header>
   );

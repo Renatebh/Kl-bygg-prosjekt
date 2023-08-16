@@ -3,11 +3,9 @@ import styles from "./styles/logo.module.css";
 
 const Logo = () => {
   return (
-    <div className={styles["logo-wrapper"]}>
-      <a href="/">
-        <img src={logo} alt="Bildet av logoen" className={styles["logo-img"]} />
-      </a>
-    </div>
+    <a href="/">
+      <img src={logo} alt="Bildet av logoen" className={styles["logo-img"]} />
+    </a>
   );
 };
 

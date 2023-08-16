@@ -1,11 +1,11 @@
 import { IoMdMenu } from "react-icons/io";
-import styles from "./styles/navlinks.module.css";
+import styles from "./styles/hamburger.module.css";
 import { HamburgerProps } from "../../interfaces/hamburger";
 
 const Hamburger = ({ onClick }: HamburgerProps) => {
   return (
-    <button onClick={onClick}>
-      <IoMdMenu className={styles["hamburger-menu"]} />
+    <button onClick={onClick} className={styles["hamburger-button"]}>
+      <IoMdMenu className={styles["hamburger-icon"]} size={30} />
     </button>
   );
 };

@@ -7,8 +7,17 @@
   padding: 0 50px;
 }
 
-.nav-btn-container {
+.header-links {
   display: flex;
   align-items: center;
   gap: 50px;
+}
+
+@media screen and (max-width: 950px) {
+  .header-container {
+    padding: 0 30px;
+  }
+  .header-links {
+    width: 20px;
+  }
 }

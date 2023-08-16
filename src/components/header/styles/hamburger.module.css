@@ -1,0 +1,11 @@
+.hamburger-button {
+  border: none;
+  color: var(--white);
+  background-color: transparent;
+}
+
+@media screen and (min-width: 950px) {
+  .hamburger-button {
+    display: none;
+  }
+}
