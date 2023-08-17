@@ -1,8 +1,8 @@
 import Navbar from "../../components/header/Navbar";
-
+import styles from "./projects.module.css";
 const Projects = () => {
   return (
-    <div>
+    <div className={styles["projects-container"]}>
       <h1>Projects</h1>
 
       <Navbar />

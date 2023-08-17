@@ -1,1 +1,15 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  color: var(--white);
+}
 
+.hero-heading {
+  font-size: var(--h--step-0);
+}
+
+.hero-paragraph {
+  font-size: var(--p--step--1);
+  margin-top: 2rem;
+}

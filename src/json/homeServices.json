@@ -1,0 +1,38 @@
+[
+  {
+    "id": "Tømrer",
+    "icon": "LiaHammerSolid",
+    "header": "Tømrer-og snekkerfag",
+    "description": "Våre dyktige tømrere og snekkere er klare til å håndtere dine byggeprosjekter med høy kvalitet og presisjon."
+  },
+  {
+    "id": "Montering",
+    "icon": "LiaToolsSolid",
+    "header": "Montering",
+    "description": "Våre erfarne montører sikrer grundig og pålitelig montering av ulike produkter og løsninger. Kvalitet og presisjon er vårt fokus."
+  },
+  {
+    "id": "Betongfag",
+    "icon": "BsBricks",
+    "header": "Betongfag/grunnarbeid",
+    "description": "Våre eksperter i betongfag og grunnarbeid står klare til å levere solid konstruksjon og perfekt utført grunnarbeid."
+  },
+  {
+    "id": "Riving",
+    "icon": "LiaTrashAlt",
+    "header": "Riving/sanering",
+    "description": "Vi er spesialister på effektiv rivning og sikker sanering. Vårt team håndterer prosessen med profesjonalitet og nøye planlegging."
+  },
+  {
+    "id": "Riggarbeid",
+    "icon": "FaHardHat",
+    "header": "Riggarbeid",
+    "description": "Vårt dedikerte team er eksperter på riggarbeid og kan håndtere komplekse prosjekter med presisjon og sikkerhet."
+  },
+  {
+    "id": "Flytting",
+    "icon": "BsBoxFill",
+    "header": "Flytting",
+    "description": "Trenger du hjelp til flytting? Vårt team står klare til å håndtere alle aspekter av flytteprosessen for deg."
+  }
+]

@@ -1,5 +1,6 @@
 import Navbar from "../../components/header/Navbar";
 import HeroSection from "../../components/hero/HeroSection";
+import HomeServices from "../../components/services/HomeServices";
 import styles from "./home.module.css";
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
         </section>
       </div>
       <section className={`${styles["services"]} ${styles["section-spacing"]}`}>
-        Services
+        <HomeServices />
       </section>
       <section
         className={`${styles["job-opportunities"]} ${styles["section-spacing"]}`}

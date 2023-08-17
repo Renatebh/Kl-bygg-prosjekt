@@ -2,6 +2,10 @@
   width: 12.5rem;
 }
 
+.logo-img:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 950px) {
   .logo-img {
     width: 6.25rem;

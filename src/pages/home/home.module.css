@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 47.125rem 859px 568px 961px auto;
+  grid-template-rows: auto auto auto 568px 961px auto;
   grid-template-areas:
     "nav"
     "hero"
@@ -13,14 +13,12 @@
 }
 
 .section-spacing {
-  padding: 0 7rem;
+  padding: var(--section-padding-web);
 }
 
 .background-image {
   position: relative;
   grid-area: hero;
-  z-index: -1;
-
   background-image: url(../../images/construction-worke.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,20 +31,26 @@
     width: 100%;
     height: 100%;
     background-color: var(--overlay);
-    z-index: -1;
   }
 }
 
 .nav {
+  position: relative;
+  z-index: 10;
   grid-area: nav;
 }
 
 .hero {
+  position: relative;
+  z-index: 1;
   grid-area: hero;
+  display: flex;
+  flex-direction: column;
 }
 
 .services {
   grid-area: services;
+  background-color: var(--darkGrey);
 }
 
 .job-opportunities {
@@ -60,3 +64,15 @@
 .footer {
   grid-area: footer;
 }
+
+/* @media screen and (max-width: 1500px) {
+  .section-spacing {
+    padding: var(--section-padding-lap);
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .section-spacing {
+    padding: var(--section-padding-mobile);
+  }
+} */
