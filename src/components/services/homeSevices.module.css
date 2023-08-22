@@ -1,7 +1,6 @@
 .homeServices-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   gap: 2rem;
 }
@@ -24,7 +23,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 8rem;
-  /* max-width: 1400px; */
 }
 
 .card-wrapper {

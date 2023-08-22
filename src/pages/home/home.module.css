@@ -55,6 +55,7 @@
 
 .job-opportunities {
   grid-area: job-opportunities;
+  background-color: var(--grey);
 }
 
 .projects {
