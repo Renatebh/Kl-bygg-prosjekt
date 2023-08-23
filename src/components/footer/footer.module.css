@@ -1,0 +1,34 @@
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 5rem;
+  color: var(--white);
+}
+
+.footer-container a {
+  color: var(--white);
+}
+
+.footer-container h4 {
+  font-size: var(--p--step-0);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.footer-container li {
+  margin-bottom: 1rem;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

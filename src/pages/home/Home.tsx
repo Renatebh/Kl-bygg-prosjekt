@@ -1,6 +1,8 @@
+import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/header/Navbar";
 import HeroSection from "../../components/hero/HeroSection";
 import JobOpportunities from "../../components/jobOpportunities/JobOpportunities";
+import HomeProjectsSection from "../../components/projects/HomeProjectsSection";
 import HomeServices from "../../components/services/HomeServices";
 import styles from "./home.module.css";
 
@@ -23,10 +25,10 @@ const Home = () => {
         <JobOpportunities />
       </section>
       <section className={`${styles["projects"]} ${styles["section-spacing"]}`}>
-        Projects
+        <HomeProjectsSection />
       </section>
       <footer className={`${styles["footer"]} ${styles["section-spacing"]}`}>
-        Footer
+        <Footer />
       </footer>
     </div>
   );

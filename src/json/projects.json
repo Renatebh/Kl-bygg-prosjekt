@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 1",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-23",
+    "description": "This is the description for Project 1."
+  },
+  {
+    "id": 2,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 2",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-24",
+    "description": "This is the description for Project 2."
+  },
+  {
+    "id": 3,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 3",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-25",
+    "description": "This is the description for Project 3."
+  },
+  {
+    "id": 4,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 4",
+    "date": "Nov 21 - Aug 26",
+    "startDate": "2023-08-26",
+    "description": "This is the description for Project 4."
+  },
+  {
+    "id": 5,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 5",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-27",
+    "description": "This is the description for Project 5."
+  },
+  {
+    "id": 6,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 6",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-28",
+    "description": "This is the description for Project 6."
+  },
+  {
+    "id": 7,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 7",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-29",
+    "description": "This is the description for Project 4."
+  },
+  {
+    "id": 8,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 8",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-30",
+    "description": "This is the description for Project 5."
+  },
+  {
+    "id": 9,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 9",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-31",
+    "description": "This is the description for Project 9."
+  }
+]
