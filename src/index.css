@@ -11,7 +11,7 @@
 
 body {
   width: 100%;
-  max-width: 1900px;
+  max-width: var(--max-width-desktop);
   margin: 0 auto;
 }
 
@@ -32,8 +32,14 @@ p {
 
   /* SECTION SPACING */
   --section-padding-web: 4rem 10rem;
-  --section-padding-lap: 0 8rem;
-  --section-padding-mobile: 0 2rem;
+  --section-padding-lap: 4rem 6rem;
+  --section-padding-mobile: 2rem;
+
+  /* MAX-WIDTH */
+  --max-width-desktop: 1920px;
+  --max-width-laptop: 1280px;
+  --max-width-tablet: 769px;
+  --max-width-mobile: 480px;
 
   /* FONT SIZES HEADINGS */
   --h--step-0: clamp(1.3rem, calc(-0.07rem + 6.65vw), 4rem);

@@ -30,3 +30,9 @@
 .project-date {
   color: var(--red);
 }
+
+@media screen and (max-width: 850px) {
+  .card-wrapper:nth-child(n + 4):nth-child(-n + 6) {
+    display: none;
+  }
+}

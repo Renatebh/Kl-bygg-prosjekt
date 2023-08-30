@@ -1,6 +1,6 @@
 import image from "../../images/klbygg.jpg";
 import { Link } from "react-router-dom";
-import styles from "./jobOpportunities.module.css";
+import styles from "./styles/jobOpportunities.module.css";
 import { BsArrowRight } from "react-icons/bs";
 
 const JobOpportunities = () => {

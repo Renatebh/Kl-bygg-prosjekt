@@ -1,0 +1,11 @@
+.grid-container {
+  background-color: var(--darkGrey);
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.section-spacing {
+  padding: var(--section-padding-web);
+}

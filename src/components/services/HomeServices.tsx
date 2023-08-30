@@ -2,8 +2,8 @@ import React from "react";
 import { LiaHammerSolid, LiaToolsSolid, LiaTrashAlt } from "react-icons/lia";
 import { FaHardHat } from "react-icons/fa";
 import { BsBoxFill, BsBricks } from "react-icons/bs";
-import styles from "./homeSevices.module.css";
-import homeServicesData from "../../json/homeServices.json";
+import styles from "./styles/homeSevices.module.css";
+import homeServicesData from "../../json/servicesData.json";
 
 interface IconComponents {
   [key: string]: React.ElementType;

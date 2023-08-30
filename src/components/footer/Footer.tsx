@@ -4,7 +4,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
-import styles from "./footer.module.css";
+import styles from "./styles/footer.module.css";
 
 const Footer = () => {
   return (

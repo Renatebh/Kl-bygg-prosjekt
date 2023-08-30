@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 1",
+    "description": "This is the description for Project 1.",
+    "projectStory": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-23",
+    "location": "Sandefjord",
+    "projectServices": {
+      "services": [
+        { "name": "Tømrer", "icon": "LiaHammerSolid" },
+        { "name": "Montering", "icon": "LiaToolsSolid" }
+      ],
+      "images": [
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/skyscrapers.jpg",
+        "/src/images/city.jpg",
+        "/src/images/architecture.jpg"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 2",
+    "description": "This is the description for Project 2.",
+    "projectStory": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-24",
+    "location": "Sandefjord",
+    "projectServices": {
+      "services": [
+        { "name": "Tømrer", "icon": "LiaHammerSolid" },
+        { "name": "Montering", "icon": "LiaToolsSolid" }
+      ],
+      "images": [
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/skyscrapers.jpg",
+        "/src/images/city.jpg",
+        "/src/images/architecture.jpg"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 3",
+    "description": "This is the description for Project 3.",
+    "projectStory": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-25",
+    "location": "Sandefjord",
+    "projectServices": {
+      "services": [
+        { "name": "Tømrer", "icon": "LiaHammerSolid" },
+        { "name": "Montering", "icon": "LiaToolsSolid" }
+      ],
+      "images": [
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/skyscrapers.jpg",
+        "/src/images/city.jpg",
+        "/src/images/architecture.jpg"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 4",
+    "description": "This is the description for Project 4.",
+    "projectStory": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+    "date": "Nov 21 - Aug 26",
+    "startDate": "2023-08-26",
+    "location": "Sandefjord",
+    "projectServices": {
+      "services": [
+        { "name": "Tømrer", "icon": "LiaHammerSolid" },
+        { "name": "Montering", "icon": "LiaToolsSolid" }
+      ],
+      "images": [
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/skyscrapers.jpg",
+        "/src/images/city.jpg",
+        "/src/images/architecture.jpg"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 5",
+    "description": "This is the description for Project 5.",
+    "projectStory": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-27",
+    "location": "Sandefjord",
+    "projectServices": {
+      "services": [
+        { "name": "Tømrer", "icon": "LiaHammerSolid" },
+        { "name": "Montering", "icon": "LiaToolsSolid" }
+      ],
+      "images": [
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/skyscrapers.jpg",
+        "/src/images/city.jpg",
+        "/src/images/architecture.jpg"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 6",
+    "description": "This is the description for Project 6.",
+    "projectStory": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-28",
+    "location": "Sandefjord",
+    "projectServices": {
+      "services": [
+        { "name": "Tømrer", "icon": "LiaHammerSolid" },
+        { "name": "Montering", "icon": "LiaToolsSolid" }
+      ],
+      "images": [
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/skyscrapers.jpg",
+        "/src/images/city.jpg",
+        "/src/images/architecture.jpg"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 7",
+    "description": "This is the description for Project 4.",
+    "projectStory": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-29",
+    "location": "Sandefjord",
+    "projectServices": {
+      "services": [
+        { "name": "Tømrer", "icon": "LiaHammerSolid" },
+        { "name": "Montering", "icon": "LiaToolsSolid" }
+      ],
+      "images": [
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/skyscrapers.jpg",
+        "/src/images/city.jpg",
+        "/src/images/architecture.jpg"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 8",
+    "description": "This is the description for Project 5.",
+    "projectStory": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-30",
+    "location": "Sandefjord",
+    "projectServices": {
+      "services": [
+        { "name": "Tømrer", "icon": "LiaHammerSolid" },
+        { "name": "Montering", "icon": "LiaToolsSolid" }
+      ],
+      "images": [
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/skyscrapers.jpg",
+        "/src/images/city.jpg",
+        "/src/images/architecture.jpg"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "image": "/src/images/empire-state.jpg",
+    "projectName": "Project 9",
+    "description": "This is the description for Project 9.",
+    "projectStory": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+    "date": "Nov 21 - Aug 23",
+    "startDate": "2023-08-31",
+    "location": "Sandefjord",
+    "projectServices": {
+      "services": [
+        { "name": "Tømrer", "icon": "LiaHammerSolid" },
+        { "name": "Montering", "icon": "LiaToolsSolid" }
+      ],
+      "images": [
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/empire-state.jpg",
+        "/src/images/skyscrapers.jpg",
+        "/src/images/city.jpg",
+        "/src/images/architecture.jpg"
+      ]
+    }
+  }
+]

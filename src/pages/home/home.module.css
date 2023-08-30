@@ -1,7 +1,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto 568px 961px auto;
+  grid-template-rows: auto auto auto 568px auto auto;
   grid-template-areas:
     "nav"
     "hero"
@@ -68,14 +68,14 @@
   background-color: var(--grey);
 }
 
-/* @media screen and (max-width: 1500px) {
+@media screen and (max-width: 1280px) {
   .section-spacing {
     padding: var(--section-padding-lap);
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 960px) {
   .section-spacing {
     padding: var(--section-padding-mobile);
   }
-} */
+}
