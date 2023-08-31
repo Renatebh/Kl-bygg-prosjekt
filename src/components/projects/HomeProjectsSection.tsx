@@ -1,7 +1,6 @@
+import LinkProjects from "../links/LinkProjects";
 import ProjectsCards from "./ProjectsCards";
 import styles from "./styles/homeProjectsSection.module.css";
-import { Link } from "react-router-dom";
-import { BsArrowRight } from "react-icons/bs";
 
 const HomeProjectsSection = () => {
   return (
@@ -12,12 +11,9 @@ const HomeProjectsSection = () => {
       </h2>
       <div className={styles["cards-container"]}>
         <ProjectsCards numberOfCards={6} />
-        <div className={styles["link-projects"]}>
-          <Link to="/projects" className={styles["link-content"]}>
-            Flere prosjekter
-            <BsArrowRight />
-          </Link>
-        </div>
+      </div>
+      <div className={styles["link-projects"]}>
+        <LinkProjects />
       </div>
     </>
   );

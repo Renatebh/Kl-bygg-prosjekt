@@ -3,9 +3,14 @@ import { useParams } from "react-router-dom";
 import Icons from "../icons/Icons";
 import styles from "./styles/singleProject.module.css";
 import ImageSlider from "../imageSlider/ImageSlider";
+// import { useEffect } from "react";
 
 const SingleProject = () => {
   const { name } = useParams();
+
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   const project = projects.find((project) => project.projectName === name);
 
@@ -20,12 +25,17 @@ const SingleProject = () => {
           <img
             src={project?.image}
             alt={`Image of project ${project?.projectName}`}
-            className={styles["big-image"]}
+            className={styles["image"]}
           />
-          <div className={styles["project-info"]}>
+          <div className={styles["info"]}>
             <h2>{project?.projectName}</h2>
-            <p>Sted: {project?.location}</p>
-            <p>Fase/år: {project?.date}</p>
+            <div className={styles["info-top"]}>
+              <p>Sted:</p> <p> {project?.location}</p>
+            </div>
+            <div className={styles["info-top"]}>
+              <p>Fase/år: </p>
+              <p>{project?.date}</p>
+            </div>
             <hr className={styles["line"]} />
             {project?.projectServices?.services.map((service, index) => (
               <div key={index} className={styles["service-wrapper"]}>

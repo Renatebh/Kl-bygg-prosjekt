@@ -1,11 +1,11 @@
 .image {
-  width: 500px;
+  width: 470px;
   height: 300px;
 }
 
 .container {
   background-color: var(--grey);
-  padding: 3rem;
+  padding: 4rem 3rem;
   display: flex;
   justify-content: center;
   align-items: center;

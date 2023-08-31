@@ -1,0 +1,12 @@
+.link-content {
+  color: var(--red);
+  font-weight: bold;
+  font-size: var(--p--step-1);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.link-content:hover {
+  text-decoration: underline;
+}

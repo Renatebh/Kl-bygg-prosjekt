@@ -1,12 +1,12 @@
 .card-wrapper {
-  width: 100%;
-  height: 239px;
+  width: 470px;
+  height: 300px;
   position: relative;
 }
 
 .image {
   width: 100%;
-  height: 239px;
+  height: 300px;
   object-fit: cover;
 }
 

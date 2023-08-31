@@ -1,0 +1,11 @@
+.contactblock-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactblock-container p {
+  color: var(--white);
+  font-size: var(--p--step-1);
+}

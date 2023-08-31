@@ -1,12 +1,21 @@
 import styles from "./styles/cards.module.css";
 import projects from "../../json/projectsData.json";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 interface NumberOfCardsProps {
   numberOfCards: number;
 }
 
 const ProjectsCards = ({ numberOfCards }: NumberOfCardsProps) => {
+  useEffect(() => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  });
+
   const sortedProjects = projects.sort((a, b) => {
     const dateA = new Date(a.startDate);
     const dateB = new Date(b.startDate);
@@ -18,13 +27,12 @@ const ProjectsCards = ({ numberOfCards }: NumberOfCardsProps) => {
     <>
       {selectedProjects.map((project) => (
         <div key={project.id} className={styles["card-wrapper"]}>
-          <Link to={`projects/${encodeURIComponent(project.projectName)}`}>
+          <Link to={`/projects/${encodeURIComponent(project.projectName)}`}>
             <img
               className={styles["image"]}
               src={project.image}
               alt={project.projectName}
             />
-
             <div className={styles["text-box"]}>
               <h3 className={styles["project-name"]}>{project.projectName}</h3>
               <p className={styles["project-date"]}> {project.date}</p>

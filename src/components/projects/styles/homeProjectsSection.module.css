@@ -3,7 +3,7 @@
   font-size: var(--p--step-0);
   font-weight: 300;
   text-align: center;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .headline {
@@ -15,10 +15,9 @@
 }
 
 .cards-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, auto);
-  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .link-projects {
@@ -29,19 +28,6 @@
   justify-content: center;
   gap: 0.5rem;
   height: 6rem;
-}
-
-.link-content {
-  color: var(--red);
-  font-weight: bold;
-  font-size: var(--p--step-1);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.link-content:hover {
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 1000px) {
