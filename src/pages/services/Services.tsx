@@ -1,6 +1,6 @@
 import Navbar from "../../components/header/Navbar";
 import Cards from "../../components/projects/ProjectsCards";
-import styles from "./projects.module.css";
+import styles from "./services.module.css";
 
 const Services = () => {
   return (

@@ -1,31 +1,18 @@
-import styles from "./styles/projectCards.module.css";
+import styles from "./styles/bigProjectCard.module.css";
 import projects from "../../json/projectsData.json";
 import { Link } from "react-router-dom";
-// import { useEffect } from "react";
 
-interface NumberOfCardsProps {
-  numberOfCards: number;
-}
-
-const ProjectsCards = ({ numberOfCards }: NumberOfCardsProps) => {
-  // useEffect(() => {
-  //   window.scroll({
-  //     top: 0,
-  //     left: 0,
-  //     behavior: "smooth",
-  //   });
-  // });
-
+const BigProjectCard = () => {
   const sortedProjects = projects.sort((a, b) => {
     const dateA = new Date(a.startDate);
     const dateB = new Date(b.startDate);
     return dateB.getTime() - dateA.getTime();
   });
-  const selectedProjects = sortedProjects.slice(0, numberOfCards);
+  const firstProjects = sortedProjects.slice(0, 1);
 
   return (
-    <>
-      {selectedProjects.map((project) => (
+    <div>
+      {firstProjects.map((project) => (
         <div key={project.id} className={styles["card-wrapper"]}>
           <Link to={`/projects/${encodeURIComponent(project.projectName)}`}>
             <img
@@ -40,8 +27,8 @@ const ProjectsCards = ({ numberOfCards }: NumberOfCardsProps) => {
           </Link>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 
-export default ProjectsCards;
+export default BigProjectCard;

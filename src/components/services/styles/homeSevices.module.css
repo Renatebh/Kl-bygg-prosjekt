@@ -21,8 +21,8 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 10rem;
+  justify-content: space-between;
+  gap: 7rem;
 }
 
 .card-wrapper {
