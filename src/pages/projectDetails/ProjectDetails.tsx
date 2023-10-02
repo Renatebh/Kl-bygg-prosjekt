@@ -20,17 +20,17 @@ const ProjectDetails = () => {
       >
         <ContactBlock />
       </section>
-      <section
+      {/* <section
         className={`${styles["project-cards"]} ${styles["section-spacing"]}`}
       >
-        {/* <h2>Våre prosjekter</h2>
+        <h2>Våre prosjekter</h2>
         <div className={styles["cards-container"]}>
           <ProjectsCards numberOfCards={3} />
-        </div> */}
-        {/* <div className={styles["link"]}>
+        </div>
+        <div className={styles["link"]}>
           <LinkProjects />
-        </div> */}
-      </section>
+        </div>
+      </section> */}
       <section className={`${styles["footer"]} ${styles["section-spacing"]}`}>
         <Footer />
       </section>

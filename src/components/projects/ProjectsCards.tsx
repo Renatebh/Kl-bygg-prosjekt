@@ -1,6 +1,5 @@
 import styles from "./styles/projectCards.module.css";
 import projects from "../../json/projectsData.json";
-// import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 interface NumberOfCardsProps {
