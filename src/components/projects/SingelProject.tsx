@@ -1,13 +1,20 @@
-import projects from "../../json/projectsData.json";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import projects from "../../json/projectsData.json";
+import ImageSlider from "../imageSlider/ImageSlider";
 import Icons from "../icons/Icons";
 import styles from "./styles/singleProject.module.css";
-import ImageSlider from "../imageSlider/ImageSlider";
 
 const SingleProject = () => {
-  const { name } = useParams();
+  const { projectName } = useParams();
 
-  const project = projects.find((project) => project.projectName === name);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const project = projects.find(
+    (project) => project.projectName === projectName
+  );
 
   if (!project) {
     return <div>Loading...</div>;

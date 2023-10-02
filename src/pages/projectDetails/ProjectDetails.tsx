@@ -1,8 +1,8 @@
 import ContactBlock from "../../components/contactBlock/ContactBlock";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/header/Navbar";
-import LinkProjects from "../../components/links/LinkProjects";
-import ProjectsCards from "../../components/projects/ProjectsCards";
+// import LinkProjects from "../../components/links/LinkProjects";
+// import ProjectsCards from "../../components/projects/ProjectsCards";
 import SingelProject from "../../components/projects/SingelProject";
 import styles from "./projectDetails.module.css";
 
@@ -23,13 +23,13 @@ const ProjectDetails = () => {
       <section
         className={`${styles["project-cards"]} ${styles["section-spacing"]}`}
       >
-        <h2>Våre prosjekter</h2>
+        {/* <h2>Våre prosjekter</h2>
         <div className={styles["cards-container"]}>
           <ProjectsCards numberOfCards={3} />
-        </div>
-        <div className={styles["link"]}>
+        </div> */}
+        {/* <div className={styles["link"]}>
           <LinkProjects />
-        </div>
+        </div> */}
       </section>
       <section className={`${styles["footer"]} ${styles["section-spacing"]}`}>
         <Footer />
