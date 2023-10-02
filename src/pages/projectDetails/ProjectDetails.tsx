@@ -23,11 +23,11 @@ const ProjectDetails = () => {
       <section
         className={`${styles["project-cards"]} ${styles["section-spacing"]}`}
       >
-        <h3>Våre prosjekter</h3>
+        <h2>Våre prosjekter</h2>
         <div className={styles["cards-container"]}>
           <ProjectsCards numberOfCards={3} />
         </div>
-        <div className={styles[""]}>
+        <div className={styles["link"]}>
           <LinkProjects />
         </div>
       </section>

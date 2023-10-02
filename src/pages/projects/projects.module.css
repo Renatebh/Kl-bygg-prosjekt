@@ -1,3 +1,21 @@
 .projects-container {
   background-color: var(--darkGrey);
 }
+
+.section-spacing {
+  padding: var(--section-padding-web);
+  display: flex;
+  flex-direction: column;
+}
+
+.small-cards-container {
+  background-color: aqua;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-block {
+  display: flex;
+  justify-content: center;
+}

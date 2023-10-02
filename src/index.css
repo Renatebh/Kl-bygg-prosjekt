@@ -13,6 +13,12 @@ body {
   width: 100%;
   max-width: var(--max-width-desktop);
   margin: 0 auto;
+  /* background-color: var(--darkGrey); */
+}
+
+html,
+body {
+  min-height: 100vh;
 }
 
 p {

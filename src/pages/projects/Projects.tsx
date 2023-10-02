@@ -7,17 +7,23 @@ import styles from "./projects.module.css";
 const Projects = () => {
   return (
     <div className={styles["projects-container"]}>
-      <section>
+      <section className={styles["nav"]}>
         <Navbar />
       </section>
-      <section>
+      <section className={`${styles["section-spacing"]} ${styles["big-card"]}`}>
         <BigProjectCard />
+      </section>
+      <section
+        className={`${styles["section-spacing"]} ${styles["small-cards-container"]}`}
+      >
         <ProjectsCards numberOfCards={9} />
       </section>
-      <section>
+      <section
+        className={`${styles["section-spacing"]} ${styles["contact-block"]}`}
+      >
         <ContactBlock />
       </section>
-      <section>
+      <section className={`${styles["section-spacing"]} ${styles["footer"]}`}>
         <Footer />
       </section>
     </div>

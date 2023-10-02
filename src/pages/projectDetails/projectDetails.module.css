@@ -1,6 +1,8 @@
 .grid-container {
+  width: 100%;
+  min-width: 100%;
   background-color: var(--darkGrey);
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto auto;
   grid-template-areas:
@@ -9,8 +11,9 @@
     "contact-block"
     "project-cards"
     "footer";
-  min-height: 100vh;
+  min-height: 100vh; */
 }
+
 .section-spacing {
   padding: var(--section-padding-web);
 }
@@ -31,19 +34,26 @@
 
 .project-cards {
   grid-area: project-cards;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
 }
 
-.project-cards h3 {
+.project-cards h2 {
   color: var(--white);
   font-size: var(--p--step-0);
+  text-align: center;
+  padding-bottom: 2rem;
 }
 
 .cards-container {
+  width: 100%;
   display: flex;
   gap: 1rem;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
 }
 
 .footer {

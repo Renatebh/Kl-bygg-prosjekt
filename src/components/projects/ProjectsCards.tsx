@@ -1,21 +1,12 @@
 import styles from "./styles/projectCards.module.css";
 import projects from "../../json/projectsData.json";
 import { Link } from "react-router-dom";
-// import { useEffect } from "react";
 
 interface NumberOfCardsProps {
   numberOfCards: number;
 }
 
 const ProjectsCards = ({ numberOfCards }: NumberOfCardsProps) => {
-  // useEffect(() => {
-  //   window.scroll({
-  //     top: 0,
-  //     left: 0,
-  //     behavior: "smooth",
-  //   });
-  // });
-
   const sortedProjects = projects.sort((a, b) => {
     const dateA = new Date(a.startDate);
     const dateB = new Date(b.startDate);

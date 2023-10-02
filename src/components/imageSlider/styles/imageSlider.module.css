@@ -19,3 +19,21 @@
   border: none;
   display: flex;
 }
+
+@media screen and (max-width: 1570px) {
+  .image {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .image {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .image {
+    width: 300px;
+  }
+}
