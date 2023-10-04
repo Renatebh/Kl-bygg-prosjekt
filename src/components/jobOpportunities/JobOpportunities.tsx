@@ -2,26 +2,21 @@ import image from "../../images/klbygg.jpg";
 import { Link } from "react-router-dom";
 import styles from "./styles/jobOpportunities.module.css";
 import { BsArrowRight } from "react-icons/bs";
+import { useTranslation } from "react-i18next";
 
 const JobOpportunities = () => {
+  const [t] = useTranslation("global");
+
   return (
     <div className={styles["job-opportunities-container"]}>
       <div className={styles["text-container"]}>
         <h3 className={styles["header"]}>
-          Ønsker du jobb
-          <br /> i Kl-bygg?
+          {t("main.jobOpportunities.heading")}
         </h3>
-        <p className={styles["text"]}>
-          KL-Bygg både i Oslo og Sandefjord deler kontorer med
-          rekrutteringsselskapet HIRE og kursspesialisten SMG kurs. Selv om vi
-          er selvstendige selskaper, har både vi og våre kunder stor nytte av
-          synergien mellom våre fire søsterselskap.
-          <br /> <br />
-          Vi rekrutterer kontinuerlig året rundt.
-        </p>
+        <p className={styles["text"]}>{t("main.jobOpportunities.text")}</p>
         <br />
         <Link to={"/contact"} className={styles["link"]}>
-          Registrer din CV
+          {t("main.jobOpportunities.link")}
           <BsArrowRight />
         </Link>
       </div>

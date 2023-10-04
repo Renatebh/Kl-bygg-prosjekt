@@ -1,0 +1,199 @@
+{
+  "header": {
+    "navlinks": {
+      "contact": "kontakt",
+      "about": "o nas",
+      "services": "usługi",
+      "projects": "projekty"
+    }
+  },
+  "main": {
+    "hero": {
+      "heroHeading": "kl-bygg dba się o wysoką jakość i dobre partnerstwo",
+      "heroSubHeading": "skontaktuj się z nami teraz, aby porozmawiać lub wyślij nam e-maila, a skontaktujemy się z Tobą tak szybko, jak to możliwe"
+    },
+    "buttons": {
+      "contactBtn": "kontaktuj się z nami"
+    },
+    "services": {
+      "headings": {
+        "headingOne": "nasze usługi",
+        "headingTwo": "budujemy według Twoich warunków"
+      },
+      "service": [
+        {
+          "id": "Tømrer",
+          "icon": "LiaHammerSolid",
+          "header": "Cieśla/Stolarz",
+          "description": "Nasi wykwalifikowani cieśle i stolarze są gotowi zajmować się Twoimi projektami budowlanymi z wysoką jakością i precyzją."
+        },
+        {
+          "id": "Montering",
+          "icon": "LiaToolsSolid",
+          "header": "Montaż",
+          "description": "Nasi doświadczeni montażyści zapewniają solidny i niezawodny montaż różnych produktów i rozwiązań. Naszym celem jest jakość i precyzja."
+        },
+        {
+          "id": "Betongfag",
+          "icon": "BsBricks",
+          "header": "Beton/Budowa gruntów",
+          "description": "Nasi eksperci w dziedzinie betonu i budowy gruntów są gotowi dostarczyć solidne konstrukcje i doskonale wykonane prace gruntowe."
+        },
+        {
+          "id": "Riving",
+          "icon": "LiaTrashAlt",
+          "header": "Demontaż/Dekontaminacja",
+          "description": "Jesteśmy specjalistami w efektywnym demontażu i bezpiecznej dekontaminacji. Nasz zespół prowadzi proces profesjonalnie i starannie planuje."
+        },
+        {
+          "id": "Riggarbeid",
+          "icon": "FaHardHat",
+          "header": "Prace przy sprzęcie",
+          "description": "Nasz oddany zespół jest ekspertem w pracach przy sprzęcie specjalistycznym i może obsługiwać skomplikowane projekty z precyzją i bezpieczeństwem."
+        },
+        {
+          "id": "Flytting",
+          "icon": "BsBoxFill",
+          "header": "Przeprowadzki",
+          "description": "Potrzebujesz pomocy przy przeprowadzce? Nasz zespół jest gotów obsługiwać wszystkie aspekty procesu przeprowadzki dla Ciebie."
+        }
+      ]
+    },
+    "jobOpportunities": {
+      "heading": "Czy chcesz pracować w kl-bygg?",
+      "text": "KL-Bygg w Oslo i Sandefjord dzieli biura z firmą rekrutacyjną HIRE oraz specjalistą w kursach SMG kurs. Chociaż jesteśmy niezależnymi firmami, zarówno my, jak i nasi klienci, korzystamy z synergii między naszymi czterema spółkami z grupy. Rekrutujemy przez cały rok",
+      "link": "zarejestruj swoje CV"
+    },
+    "projects": {
+      "headings": {
+        "headingOne": "nasze projekty",
+        "headingTwo": "we współpracy z innymi doświadczonymi specjalistami",
+        "link": "więcej projektów"
+      },
+      "projectCards": [
+        {
+          "id": 1,
+          "name": "Projekt 1",
+          "timezone": "listopad 2021 - sierpień 2023",
+          "startDate": "2023-08-23",
+          "location": "Sandefjord",
+          "description": "To jest opis Projektu 1.",
+          "story": "Nasi doświadczeni cieśle i stolarze przeprowadzili rozległe naprawy i stworzyli spersonalizowane rozwiązania, które przywróciły historyczny urok projektu. Jednocześnie nasi oddani montażyści zapewnili precyzyjny montaż nowoczesnych udogodnień, co zaowocowało doskonałym połączeniem nostalgii z nowoczesnością. Ta harmonijna współpraca między starym a nowym przyniosła efekt, który nie tylko spełnia funkcjonalne potrzeby, ale także podkreśla wyjątkowy charakter każdego aspektu projektu.",
+          "services": [
+            { "name": "cieśla", "icon": "LiaHammerSolid" },
+            { "name": "montaż", "icon": "LiaToolsSolid" }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Projekt 2",
+          "timezone": "listopad 2021 - sierpień 2023",
+          "startDate": "2023-08-23",
+          "location": "Sandefjord",
+          "description": "To jest opis Projektu 2.",
+          "story": "Nasi doświadczeni cieśle i stolarze przeprowadzili rozległe naprawy i stworzyli spersonalizowane rozwiązania, które przywróciły historyczny urok projektu. Jednocześnie nasi oddani montażyści zapewnili precyzyjny montaż nowoczesnych udogodnień, co zaowocowało doskonałym połączeniem nostalgii z nowoczesnością. Ta harmonijna współpraca między starym a nowym przyniosła efekt, który nie tylko spełnia funkcjonalne potrzeby, ale także podkreśla wyjątkowy charakter każdego aspektu projektu.",
+          "services": [
+            { "name": "cieśla", "icon": "LiaHammerSolid" },
+            { "name": "montaż", "icon": "LiaToolsSolid" }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Projekt 3",
+          "timezone": "listopad 2021 - sierpień 2023",
+          "startDate": "2023-08-23",
+          "location": "Sandefjord",
+          "description": "To jest opis Projektu 3.",
+          "story": "Nasi doświadczeni cieśle i stolarze przeprowadzili rozległe naprawy i stworzyli spersonalizowane rozwiązania, które przywróciły historyczny urok projektu. Jednocześnie nasi oddani montażyści zapewnili precyzyjny montaż nowoczesnych udogodnień, co zaowocowało doskonałym połączeniem nostalgii z nowoczesnością. Ta harmonijna współpraca między starym a nowym przyniosła efekt, który nie tylko spełnia funkcjonalne potrzeby, ale także podkreśla wyjątkowy charakter każdego aspektu projektu.",
+          "services": [
+            { "name": "cieśla", "icon": "LiaHammerSolid" },
+            { "name": "montaż", "icon": "LiaToolsSolid" }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Projekt 4",
+          "timezone": "listopad 2021 - sierpień 2023",
+          "startDate": "2023-08-23",
+          "location": "Sandefjord",
+          "description": "To jest opis Projektu 4.",
+          "story": "Nasi doświadczeni cieśle i stolarze przeprowadzili rozległe naprawy i stworzyli spersonalizowane rozwiązania, które przywróciły historyczny urok projektu. Jednocześnie nasi oddani montażyści zapewnili precyzyjny montaż nowoczesnych udogodnień, co zaowocowało doskonałym połączeniem nostalgii z nowoczesnością. Ta harmonijna współpraca między starym a nowym przyniosła efekt, który nie tylko spełnia funkcjonalne potrzeby, ale także podkreśla wyjątkowy charakter każdego aspektu projektu.",
+          "services": [
+            { "name": "cieśla", "icon": "LiaHammerSolid" },
+            { "name": "montaż", "icon": "LiaToolsSolid" }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Projekt 5",
+          "timezone": "listopad 2021 - sierpień 2023",
+          "startDate": "2023-08-23",
+          "location": "Sandefjord",
+          "description": "To jest opis Projektu 5.",
+          "story": "Nasi doświadczeni cieśle i stolarze przeprowadzili rozległe naprawy i stworzyli spersonalizowane rozwiązania, które przywróciły historyczny urok projektu. Jednocześnie nasi oddani montażyści zapewnili precyzyjny montaż nowoczesnych udogodnień, co zaowocowało doskonałym połączeniem nostalgii z nowoczesnością. Ta harmonijna współpraca między starym a nowym przyniosła efekt, który nie tylko spełnia funkcjonalne potrzeby, ale także podkreśla wyjątkowy charakter każdego aspektu projektu.",
+          "services": [
+            { "name": "cieśla", "icon": "LiaHammerSolid" },
+            { "name": "montaż", "icon": "LiaToolsSolid" }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Projekt 6",
+          "timezone": "listopad 2021 - sierpień 2023",
+          "startDate": "2023-08-23",
+          "location": "Sandefjord",
+          "description": "To jest opis Projektu 6.",
+          "story": "Nasi doświadczeni cieśle i stolarze przeprowadzili rozległe naprawy i stworzyli spersonalizowane rozwiązania, które przywróciły historyczny urok projektu. Jednocześnie nasi oddani montażyści zapewnili precyzyjny montaż nowoczesnych udogodnień, co zaowocowało doskonałym połączeniem nostalgii z nowoczesnością. Ta harmonijna współpraca między starym a nowym przyniosła efekt, który nie tylko spełnia funkcjonalne potrzeby, ale także podkreśla wyjątkowy charakter każdego aspektu projektu.",
+          "services": [
+            { "name": "cieśla", "icon": "LiaHammerSolid" },
+            { "name": "montaż", "icon": "LiaToolsSolid" }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Projekt 7",
+          "timezone": "listopad 2021 - sierpień 2023",
+          "startDate": "2023-08-23",
+          "location": "Sandefjord",
+          "description": "To jest opis Projektu 7.",
+          "story": "Nasi doświadczeni cieśle i stolarze przeprowadzili rozległe naprawy i stworzyli spersonalizowane rozwiązania, które przywróciły historyczny urok projektu. Jednocześnie nasi oddani montażyści zapewnili precyzyjny montaż nowoczesnych udogodnień, co zaowocowało doskonałym połączeniem nostalgii z nowoczesnością. Ta harmonijna współpraca między starym a nowym przyniosła efekt, który nie tylko spełnia funkcjonalne potrzeby, ale także podkreśla wyjątkowy charakter każdego aspektu projektu.",
+          "services": [
+            { "name": "cieśla", "icon": "LiaHammerSolid" },
+            { "name": "montaż", "icon": "LiaToolsSolid" }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Projekt 8",
+          "timezone": "listopad 2021 - sierpień 2023",
+          "startDate": "2023-08-23",
+          "location": "Sandefjord",
+          "description": "To jest opis Projektu 8.",
+          "story": "Nasi doświadczeni cieśle i stolarze przeprowadzili rozległe naprawy i stworzyli spersonalizowane rozwiązania, które przywróciły historyczny urok projektu. Jednocześnie nasi oddani montażyści zapewnili precyzyjny montaż nowoczesnych udogodnień, co zaowocowało doskonałym połączeniem nostalgii z nowoczesnością. Ta harmonijna współpraca między starym a nowym przyniosła efekt, który nie tylko spełnia funkcjonalne potrzeby, ale także podkreśla wyjątkowy charakter każdego aspektu projektu.",
+          "services": [
+            { "name": "cieśla", "icon": "LiaHammerSolid" },
+            { "name": "montaż", "icon": "LiaToolsSolid" }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Projekt 9",
+          "timezone": "listopad 2021 - sierpień 2023",
+          "startDate": "2023-08-23",
+          "location": "Sandefjord",
+          "description": "To jest opis Projektu 9.",
+          "story": "Nasi doświadczeni cieśle i stolarze przeprowadzili rozległe naprawy i stworzyli spersonalizowane rozwiązania, które przywróciły historyczny urok projektu. Jednocześnie nasi oddani montażyści zapewnili precyzyjny montaż nowoczesnych udogodnień, co zaowocowało doskonałym połączeniem nostalgii z nowoczesnością. Ta harmonijna współpraca między starym a nowym przyniosła efekt, który nie tylko spełnia funkcjonalne potrzeby, ale także podkreśla wyjątkowy charakter każdego aspektu projektu.",
+          "services": [
+            { "name": "cieśla", "icon": "LiaHammerSolid" },
+            { "name": "montaż", "icon": "LiaToolsSolid" }
+          ]
+        }
+      ]
+    }
+  },
+  "footer": {
+    "text": "masz pytania, skontaktuj się z nami",
+    "headings": ["informacje", "łącza", "podążaj za nami"],
+    "links": ["o nas", "projekty", "usługi", "kontakt z nami"]
+  }
+}

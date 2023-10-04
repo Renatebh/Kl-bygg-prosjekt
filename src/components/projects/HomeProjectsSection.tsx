@@ -1,13 +1,18 @@
+import { useTranslation } from "react-i18next";
 import LinkProjects from "../links/LinkProjects";
 import ProjectsCards from "./ProjectsCards";
 import styles from "./styles/homeProjectsSection.module.css";
 
 const HomeProjectsSection = () => {
+  const [t] = useTranslation("global");
+
   return (
     <>
-      <p className={styles["our-projects"]}>Våre prosjekter</p>
+      <p className={styles["our-projects"]}>
+        {t("main.projects.headings.headingOne")}
+      </p>
       <h2 className={styles["headline"]}>
-        I sammarbeid med andre dyktige fagfolk
+        {t("main.projects.headings.headingTwo")}
       </h2>
       <div className={styles["cards-container"]}>
         <ProjectsCards numberOfCards={6} />

@@ -1,8 +1,11 @@
 import styles from "./styles/navlinks.module.css";
 import { NavLink } from "react-router-dom";
 import { MenuProps } from "../../interfaces/menu";
+import { useTranslation } from "react-i18next";
 
 const NavLinks = ({ menuOpen, currentRoute }: MenuProps) => {
+  const [t] = useTranslation("global");
+
   const isPageActive = (page: string) => currentRoute === page;
   return (
     <nav>
@@ -20,7 +23,7 @@ const NavLinks = ({ menuOpen, currentRoute }: MenuProps) => {
                 : styles["navlinks"]
             }
           >
-            Om oss
+            {t("header.navlinks.about")}
           </NavLink>
         </li>
         <li>
@@ -32,7 +35,7 @@ const NavLinks = ({ menuOpen, currentRoute }: MenuProps) => {
                 : styles["navlinks"]
             }
           >
-            Prosjekter
+            {t("header.navlinks.projects")}
           </NavLink>
         </li>
         <li>
@@ -44,7 +47,7 @@ const NavLinks = ({ menuOpen, currentRoute }: MenuProps) => {
                 : styles["navlinks"]
             }
           >
-            Tjenester
+            {t("header.navlinks.services")}
           </NavLink>
         </li>
         <li>
@@ -56,7 +59,7 @@ const NavLinks = ({ menuOpen, currentRoute }: MenuProps) => {
                 : styles["navlinks"]
             }
           >
-            Kontakt oss
+            {t("header.navlinks.contact")}
           </NavLink>
         </li>
       </ul>

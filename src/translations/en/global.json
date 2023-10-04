@@ -1,0 +1,193 @@
+[
+  {
+    "header": {
+      "navlinks": {
+        "contact": "kontakt",
+        "about": "om oss",
+        "services": "tjenester",
+        "projects": "prosjekter"
+      }
+    },
+    "body": {
+      "hero": {
+        "heroHeading": "kl-bygg er opptatt av høy kvalitet og godt sammarbeid",
+        "heroSubHeading": "kontakt oss nå for en hyggelig prat eller send oss en epost så kontakter vi deg så snart vi kan"
+      },
+      "buttons": {
+        "contactBtn": "kontakt oss"
+      },
+      "services": {
+        "headings": {
+          "headingOne": "våre tjenester",
+          "headingTwo": "vi bygger for din komfort"
+        },
+        "carpentry": {
+          "heading": "tømrer og snekker",
+          "homepageText": "Våre dyktige tømrere og snekkere er klare til å håndtere dine byggeprosjekter med høy kvalitet og presisjon.",
+          "servicepageText": "Våre dyktige tømrere og snekkere er klare til å håndtere dine byggeprosjekter med høy kvalitet og presisjon."
+        },
+        "assembly": {
+          "heading": "montering",
+          "homepageText": "Våre erfarne montører sikrer grundig og pålitelig montering av ulike produkter og løsninger. Kvalitet og presisjon er vårt fokus.",
+          "servicepageText": "Våre erfarne montører sikrer grundig og pålitelig montering av ulike produkter og løsninger. Kvalitet og presisjon er vårt fokus."
+        },
+        "concrete": {
+          "heading": "betongfag/grunnarbeid",
+          "homepageText": "Våre eksperter i betongfag og grunnarbeid står klare til å levere solid konstruksjon og perfekt utført grunnarbeid.",
+          "servicepageText": "Våre eksperter i betongfag og grunnarbeid står klare til å levere solid konstruksjon og perfekt utført grunnarbeid."
+        },
+        "demolition": {
+          "heading": "riving/sanering",
+          "homepageText": "Vi er spesialister på effektiv rivning og sikker sanering. Vårt team håndterer prosessen med profesjonalitet og nøye planlegging.",
+          "servicepageText": "Vi er spesialister på effektiv rivning og sikker sanering. Vårt team håndterer prosessen med profesjonalitet og nøye planlegging."
+        },
+        "rigging": {
+          "heading": "riggarbeid",
+          "homepageText": "Vårt dedikerte team er eksperter på riggarbeid og kan håndtere komplekse prosjekter med presisjon og sikkerhet.",
+          "servicepageText": "Vårt dedikerte team er eksperter på riggarbeid og kan håndtere komplekse prosjekter med presisjon og sikkerhet."
+        },
+        "relocation": {
+          "heading": "flytting",
+          "homepageText": "Trenger du hjelp til flytting? Vårt team står klare til å håndtere alle aspekter av flytteprosessen for deg.",
+          "servicepageText": "Trenger du hjelp til flytting? Vårt team står klare til å håndtere alle aspekter av flytteprosessen for deg."
+        }
+      },
+      "jobOpportunities": {
+        "heading": "ønsker du jobb i kl-bygg?",
+        "text": "KL-Bygg både i Oslo og Sandefjord deler kontorer med rekrutteringsselskapet HIRE og kursspesialisten SMG kurs. Selv om vi er selvstendige selskaper, har både vi og våre kunder stor nytte av synergien mellom våre fire søsterselskap. Vi rekrutterer kontinuerlig året rundt",
+        "link": "register din CV"
+      },
+      "projects": {
+        "headings": {
+          "headingOne": "våre prosjekter",
+          "headingTwo": "i samarbeid med andre dyktige fagfolk",
+          "link": "flere prosjekter"
+        },
+        "projectCards": [
+          {
+            "id": 1,
+            "name": "Project 1",
+            "timezone": "Nov 21 - Aug 23",
+            "startDate": "2023-08-23",
+            "location": "Sandefjord",
+            "description": "This is the description for Project 1.",
+            "story": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+            "services": [
+              { "name": "tømrer", "icon": "LiaHammerSolid" },
+              { "name": "montering", "icon": "LiaToolsSolid" }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Project 2",
+            "timezone": "Nov 21 - Aug 23",
+            "startDate": "2023-08-23",
+            "location": "Sandefjord",
+            "description": "This is the description for Project 2.",
+            "story": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+            "services": [
+              { "name": "tømrer", "icon": "LiaHammerSolid" },
+              { "name": "montering", "icon": "LiaToolsSolid" }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Project 3",
+            "timezone": "Nov 21 - Aug 23",
+            "startDate": "2023-08-23",
+            "location": "Sandefjord",
+            "description": "This is the description for Project 3.",
+            "story": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+            "services": [
+              { "name": "tømrer", "icon": "LiaHammerSolid" },
+              { "name": "montering", "icon": "LiaToolsSolid" }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Project 4",
+            "timezone": "Nov 21 - Aug 23",
+            "startDate": "2023-08-23",
+            "location": "Sandefjord",
+            "description": "This is the description for Project 4.",
+            "story": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+            "services": [
+              { "name": "tømrer", "icon": "LiaHammerSolid" },
+              { "name": "montering", "icon": "LiaToolsSolid" }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Project 5",
+            "timezone": "Nov 21 - Aug 23",
+            "startDate": "2023-08-23",
+            "location": "Sandefjord",
+            "description": "This is the description for Project 5.",
+            "story": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+            "services": [
+              { "name": "tømrer", "icon": "LiaHammerSolid" },
+              { "name": "montering", "icon": "LiaToolsSolid" }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Project 6",
+            "timezone": "Nov 21 - Aug 23",
+            "startDate": "2023-08-23",
+            "location": "Sandefjord",
+            "description": "This is the description for Project 6.",
+            "story": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+            "services": [
+              { "name": "tømrer", "icon": "LiaHammerSolid" },
+              { "name": "montering", "icon": "LiaToolsSolid" }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "Project 7",
+            "timezone": "Nov 21 - Aug 23",
+            "startDate": "2023-08-23",
+            "location": "Sandefjord",
+            "description": "This is the description for Project 7.",
+            "story": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+            "services": [
+              { "name": "tømrer", "icon": "LiaHammerSolid" },
+              { "name": "montering", "icon": "LiaToolsSolid" }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "Project 8",
+            "timezone": "Nov 21 - Aug 23",
+            "startDate": "2023-08-23",
+            "location": "Sandefjord",
+            "description": "This is the description for Project 8.",
+            "story": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+            "services": [
+              { "name": "tømrer", "icon": "LiaHammerSolid" },
+              { "name": "montering", "icon": "LiaToolsSolid" }
+            ]
+          },
+          {
+            "id": 9,
+            "name": "Project 9",
+            "timezone": "Nov 21 - Aug 23",
+            "startDate": "2023-08-23",
+            "location": "Sandefjord",
+            "description": "This is the description for Project 9.",
+            "story": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+            "services": [
+              { "name": "tømrer", "icon": "LiaHammerSolid" },
+              { "name": "montering", "icon": "LiaToolsSolid" }
+            ]
+          }
+        ]
+      }
+    },
+    "footer": {
+      "text": "har du noen spm, ta kontakt med oss",
+      "headings": ["informasjon", "linker", "følg oss"],
+      "links": ["om oss", "prosjekter", "tjenester", "kontakt oss"]
+    }
+  }
+]

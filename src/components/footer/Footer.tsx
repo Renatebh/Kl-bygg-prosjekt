@@ -5,15 +5,17 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 import styles from "./styles/footer.module.css";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const [t, i18n] = useTranslation("global");
+  console.log(i18n.getDataByLanguage("no"));
+
   return (
     <div className={styles["footer-container"]}>
       <div className={styles["footer-section"]}>
         <img src={logo} alt="logo" />
-        <p>
-          Har du noen spørsmål? <br /> Ta kontakt med oss.
-        </p>
+        <p>{t("footer.text")}</p>
       </div>
       <div className={styles["footer-section"]}>
         <h4>Informasjon</h4>

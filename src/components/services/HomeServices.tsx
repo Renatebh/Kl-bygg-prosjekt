@@ -3,11 +3,9 @@ import { LiaHammerSolid, LiaToolsSolid, LiaTrashAlt } from "react-icons/lia";
 import { FaHardHat } from "react-icons/fa";
 import { BsBoxFill, BsBricks } from "react-icons/bs";
 import styles from "./styles/homeSevices.module.css";
-import homeServicesData from "../../json/servicesData.json";
-
-interface IconComponents {
-  [key: string]: React.ElementType;
-}
+import { useTranslation } from "react-i18next";
+import { ServiceItem } from "../../interfaces/serviceItem";
+import { IconComponents } from "../../interfaces/iconComponents";
 
 const iconComponents: IconComponents = {
   LiaHammerSolid,
@@ -19,10 +17,20 @@ const iconComponents: IconComponents = {
 };
 
 const HomeServices = () => {
+  const [t] = useTranslation("global");
+
+  const homeServicesData = t("main.services.service", {
+    returnObjects: true,
+  }) as Array<ServiceItem>;
+
   return (
     <div className={styles["homeServices-container"]}>
-      <p className={styles["our-services"]}>Våre tjenester</p>
-      <h2 className={styles["headline"]}>Vi bygger for din komfort</h2>
+      <h2 className={styles["our-services"]}>
+        {t("main.services.headings.headingOne")}
+      </h2>
+      <h3 className={styles["headline"]}>
+        {t("main.services.headings.headingTwo")}
+      </h3>
       <div className={styles["card-container"]}>
         {homeServicesData.map((data) => {
           const IconComponent = iconComponents[data.icon];
