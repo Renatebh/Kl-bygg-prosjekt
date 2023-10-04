@@ -67,9 +67,9 @@
     "projects": {
       "headings": {
         "headingOne": "nasze projekty",
-        "headingTwo": "we współpracy z innymi doświadczonymi specjalistami",
-        "link": "więcej projektów"
+        "headingTwo": "we współpracy z innymi doświadczonymi specjalistami"
       },
+      "link": "więcej projektów",
       "projectCards": [
         {
           "id": 1,

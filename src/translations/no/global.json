@@ -2,7 +2,7 @@
   "header": {
     "navlinks": {
       "contact": "kontakt",
-      "about": "om oss",
+      "about": "Om oss",
       "services": "tjenester",
       "projects": "prosjekter"
     }
@@ -193,7 +193,7 @@
   },
   "footer": {
     "text": "Har du noen spørmaål, ta kontakt med oss",
-    "headings": ["informasjon", "linker", "følg oss"],
+    "headings": ["Informasjon", "Linker", "Følg oss"],
     "links": ["om oss", "prosjekter", "tjenester", "kontakt oss"]
   }
 }

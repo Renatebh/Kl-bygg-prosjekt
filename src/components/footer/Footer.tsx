@@ -8,8 +8,15 @@ import styles from "./styles/footer.module.css";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const [t, i18n] = useTranslation("global");
-  console.log(i18n.getDataByLanguage("no"));
+  const [t] = useTranslation("global");
+  // console.log(i18n.getDataByLanguage("no"));
+  const headings = t("footer.headings", {
+    returnObjects: true,
+  }) as string[];
+
+  const information = headings[0];
+  const links = headings[1];
+  const followUs = headings[2];
 
   return (
     <div className={styles["footer-container"]}>
@@ -18,7 +25,7 @@ const Footer = () => {
         <p>{t("footer.text")}</p>
       </div>
       <div className={styles["footer-section"]}>
-        <h4>Informasjon</h4>
+        <h4>{information}</h4>
         <ul>
           <li>
             <address className={styles["list-item"]}>
@@ -41,24 +48,24 @@ const Footer = () => {
         </ul>
       </div>
       <div className={styles["footer-section"]}>
-        <h4>Linker</h4>
+        <h4>{links}</h4>
         <ul>
           <li>
-            <Link to={"/about"}>Om oss</Link>
+            <Link to={"/about"}>{t("header.navlinks.about")}</Link>
           </li>
           <li>
-            <Link to={"/projects"}>Prosjekter</Link>
+            <Link to={"/projects"}>{t("header.navlinks.projects")}</Link>
           </li>
           <li>
-            <Link to={"/services"}>Tjenester</Link>
+            <Link to={"/services"}>{t("header.navlinks.services")}</Link>
           </li>
           <li>
-            <Link to={"/contact"}>Kontakt oss</Link>
+            <Link to={"/contact"}>{t("header.navlinks.contact")}</Link>
           </li>
         </ul>
       </div>
       <div className={styles["footer-section"]}>
-        <h4>Følg oss</h4>
+        <h4>{followUs}</h4>
         <FaFacebookSquare size={40} />
       </div>
     </div>
