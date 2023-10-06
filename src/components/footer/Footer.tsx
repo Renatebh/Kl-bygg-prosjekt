@@ -3,7 +3,7 @@ import { IoMdMail } from "react-icons/io";
 import { BsTelephoneFill } from "react-icons/bs";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import logo from "../../images/logo.png";
+import logo from "../../assets/logo.png";
 import styles from "./styles/footer.module.css";
 import { useTranslation } from "react-i18next";
 

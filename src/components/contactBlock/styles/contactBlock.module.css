@@ -8,4 +8,10 @@
 .contactblock-container p {
   color: var(--white);
   font-size: var(--p--step-1);
+  display: flex;
+  flex-direction: column; /* To stack the elements vertically */
+  align-items: center; /* To center horizontally */
+  justify-content: center; /* To center vertically */
+  text-align: center; /* To center text within the container */
+  height: 100%;
 }

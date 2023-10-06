@@ -1,4 +1,4 @@
-import image from "../../images/klbygg.jpg";
+import image from "../../images/projectImages/construction-worke.jpg";
 import { Link } from "react-router-dom";
 import styles from "./styles/jobOpportunities.module.css";
 import { BsArrowRight } from "react-icons/bs";

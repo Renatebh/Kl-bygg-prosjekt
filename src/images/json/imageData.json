@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "projectName": "Project 1",
+    "image": "/src/images/projectImages/city.jpg",
+    "images": [
+      "/src/images/projectImages/city.jpg",
+      "/src/images/projectImages/architecture.jpg",
+      "/src/images/projectImages/skyscrapers.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "projectName": "Project 2",
+    "image": "/src/images/projectImages/empire-state.jpg",
+    "images": [
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/skyscrapers.jpg",
+      "/src/images/projectImages/city.jpg",
+      "/src/images/projectImages/architecture.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "projectName": "Project 3",
+    "image": "/src/images/projectImages/empire-state.jpg",
+    "images": [
+      "/src/images/projectImages/architecture.jpg",
+      "/src/images/projectImages/skyscrapers.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/city.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "projectName": "Project 4",
+    "image": "/src/images/projectImages/empire-state.jpg",
+    "images": [
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/skyscrapers.jpg",
+      "/src/images/projectImages/city.jpg",
+      "/src/images/projectImages/architecture.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "projectName": "Project 5",
+    "image": "/src/images/projectImages/empire-state.jpg",
+    "images": [
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/skyscrapers.jpg",
+      "/src/images/projectImages/city.jpg",
+      "/src/images/projectImages/architecture.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "projectName": "Project 6",
+    "image": "/src/images/projectImages/empire-state.jpg",
+    "images": [
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/skyscrapers.jpg",
+      "/src/images/projectImages/city.jpg",
+      "/src/images/projectImages/architecture.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "projectName": "Project 7",
+    "image": "/src/images/projectImages/empire-state.jpg",
+    "images": [
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/skyscrapers.jpg",
+      "/src/images/projectImages/city.jpg",
+      "/src/images/projectImages/architecture.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "projectName": "Project 8",
+    "image": "/src/images/projectImages/empire-state.jpg",
+    "images": [
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/skyscrapers.jpg",
+      "/src/images/projectImages/city.jpg",
+      "/src/images/projectImages/architecture.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "projectName": "Project 9",
+    "image": "/src/images/projectImages/city.jpg",
+
+    "images": [
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/city.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/architecture.jpg",
+      "/src/images/projectImages/empire-state.jpg",
+      "/src/images/projectImages/skyscrapers.jpg",
+      "/src/images/projectImages/empire-state.jpg"
+    ]
+  }
+]

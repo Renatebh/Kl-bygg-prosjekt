@@ -18,8 +18,9 @@
 
 .background-image {
   position: relative;
+  height: 80vh;
   grid-area: hero;
-  background-image: url(../../images/construction-worke.jpg);
+  background-image: url(../../images/projectImages/construction-worke.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 

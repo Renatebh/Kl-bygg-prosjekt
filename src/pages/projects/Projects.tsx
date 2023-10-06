@@ -1,10 +1,16 @@
+import { useEffect } from "react";
 import ContactBlock from "../../components/contactBlock/ContactBlock";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/header/Navbar";
 import BigProjectCard from "../../components/projects/BigProjectCard";
 import ProjectsCards from "../../components/projects/ProjectsCards";
 import styles from "./projects.module.css";
+
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className={styles["projects-container"]}>
       <section className={styles["nav"]}>
@@ -19,7 +25,12 @@ const Projects = () => {
         <ProjectsCards numberOfCards={9} />
       </section>
       <section
-        className={`${styles["section-spacing"]} ${styles["contact-block"]}`}
+        className={`${styles["contact-block"]} ${styles["section-spacing"]}`}
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
       >
         <ContactBlock />
       </section>

@@ -18,44 +18,45 @@
   padding: var(--section-padding-web);
 }
 
-.nav {
+/* .nav {
   grid-area: nav;
-}
+} */
 
-.single-project {
+/* .single-project {
   grid-area: single-project;
-}
+} */
 
 .contact-block {
-  grid-area: contact-block;
   display: flex;
   justify-content: center;
+  text-align: center;
+  width: 100%;
 }
 
-.project-cards {
+/* .project-cards {
   grid-area: project-cards;
-}
+} */
 
-.project-cards h2 {
+/* .project-cards h2 {
   color: var(--white);
   font-size: var(--p--step-0);
   text-align: center;
   padding-bottom: 2rem;
-}
+} */
 
-.cards-container {
+/* .cards-container {
   width: 100%;
   display: flex;
   gap: 1rem;
   justify-content: center;
   padding-bottom: 3rem;
-}
+} */
 
 .link {
   display: flex;
   justify-content: center;
 }
 
-.footer {
+/* .footer {
   grid-area: footer;
-}
+} */

@@ -9,13 +9,12 @@
 }
 
 .small-cards-container {
-  background-color: aqua;
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
-.contact-block {
+/* .contact-block {
   display: flex;
   justify-content: center;
-}
+  text-align: center;
+  width: 100%;
+} */
