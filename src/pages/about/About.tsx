@@ -4,6 +4,7 @@ import Navbar from "../../components/header/Navbar";
 import styles from "./styles/about.module.css";
 import { useTranslation } from "react-i18next";
 import imageOne from "../../images/projectImages/construction-worke.jpg";
+import imageTwo from "../../images/projectImages/klbygg.jpg";
 
 const About = () => {
   const [t, i18n] = useTranslation("global");
@@ -23,12 +24,12 @@ const About = () => {
           <p>{t("main.about.text")}</p>
         </div>
 
-        <div className={styles["big-image-wrapper"]}>
-          <img src={imageOne} alt="" className={styles["big-image"]} />
+        <div className={styles["top-image-wrapper"]}>
+          <img src={imageOne} alt="" />
         </div>
         <div className={styles["small-image-container"]}>
-          <img src={imageOne} alt="" />
-          <img src={imageOne} alt="" />
+          <img src={imageTwo} alt="" />
+          <img src={imageTwo} alt="" />
         </div>
       </section>
       <section

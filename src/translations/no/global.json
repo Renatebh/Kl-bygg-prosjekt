@@ -196,7 +196,72 @@
     "about": {
       "heading": "Om oss",
       "subheading": "Vi tilbyr alt innen enterpriser, inkuldert rigg og driftstjenester. Vårt fokusområde inkluderer tømrer- og snekkerfaget, montering, betongfaget/grunnarbeid, samt midlertidige oppdrag gjennom vår egen tjenesteavde",
-      "text": "Vi er et dedikert team av profesjonelle byggere og utviklere som har en lidenskap for å skape inspirerende og funksjonelle byggverk. Med vår ekspertise og erfaring har vi levert vellykkede prosjekter innenfor byggebransjen i mange år. Vårt firma er stolt av å tilby skreddersydde løsninger for våre kunder. Uansett om du planlegger et nytt boligprosjekt, en kommersiell eiendom eller en renovering, har vi ekspertisen som trengs for å gjøre visjonen din til virkelighet. Vi jobber tett sammen med våre kunder for å forstå deres behov og mål, og vi legger stor vekt på å levere kvalitet, effektivitet og pålitelighet i hvert trinn av prosessen. Vårt team består av erfarne fagfolk innen bygg og utvikling, samt dyktige ingeniører og designere som er dedikerte til å oppnå de beste resultatene. Vi bruker også de nyeste teknologiene og innovative metoder for å sikre at hvert prosjekt er i forkant av bransjestandardene. Kundetilfredshet er vår høyeste prioritet. Vi streber etter å overgå forventningene til våre kunder i hvert prosjekt vi tar på oss. Med vårt fokus på integritet, kvalitet og samarbeid kan du stole på oss som din pålitelige partner i alle dine byggebehov. Ta gjerne kontakt med oss for å diskutere dine prosjektbehov eller for å få mer informasjon om hvordan vi kan hjelpe deg med din neste byggeutfordring. Vi ser frem til å samarbeide med deg og bidra til å gjøre dine byggeprosjekter til en suksess. Takk for at du valgte [Ditt Byggefirma] som din byggepartner!"
+      "text": "Vi er et dedikert team av profesjonelle byggere og utviklere som har en lidenskap for å skape inspirerende og funksjonelle byggverk. Med vår ekspertise og erfaring har vi levert vellykkede prosjekter innenfor byggebransjen i mange år. Vårt firma er stolt av å tilby skreddersydde løsninger for våre kunder. Uansett om du planlegger et nytt boligprosjekt, en kommersiell eiendom eller en renovering, har vi ekspertisen som trengs for å gjøre visjonen din til virkelighet. Vi jobber tett sammen med våre kunder for å forstå deres behov og mål, og vi legger stor vekt på å levere kvalitet, effektivitet og pålitelighet i hvert trinn av prosessen. Vårt team består av erfarne fagfolk innen bygg og utvikling, samt dyktige ingeniører og designere som er dedikerte til å oppnå de beste resultatene."
+    },
+    "contact": {
+      "heading": "Kontakt oss",
+      "subHeading": "Ønsker du tilbud, søke jobb eller har du andre spørsmål?",
+      "contactForm": {
+        "heading": "Send oss en melding",
+        "problems": "Har du problemer?",
+        "contactUs": "Kontakt oss",
+        "inputName": "Navn",
+        "inputEmail": "E-post",
+        "inputMessage": "Melding",
+        "button": "Send"
+      },
+      "contactInfo": {
+        "heading": "Kontakt info",
+        "text": "KL-Bygg både i Oslo og Sandefjord deler kontorer med rekrutteringsselskapet HIRE og kursspesialisten SMG kurs. Selv om vi er selvstendige selskaper, har både vi og våre kunder stor nytte av synergien mellom våre fire søsterselskap. Vi rekrutterer kontinuerlig året rundt."
+      },
+      "employees": {
+        "heading": "Våre ansatt",
+        "subHeading": "Vi bygger for din komfort",
+        "emplyeesData": [
+          {
+            "id": "1",
+            "name": "Ola Nordmann",
+            "role": "Daglig leder",
+            "e-mail": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          },
+          {
+            "id": "2",
+            "name": "Per Nordmann",
+            "role": "Daglig leder",
+            "e-mail": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          },
+          {
+            "id": "3",
+            "name": "Odd Nordmann",
+            "role": "Daglig leder",
+            "e-mail": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          },
+          {
+            "id": "4",
+            "name": "Olav Nordmann",
+            "role": "Daglig leder",
+            "e-mail": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          },
+          {
+            "id": "5",
+            "name": "Lars Nordmann",
+            "role": "Daglig leder",
+            "e-mail": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          },
+          {
+            "id": "6",
+            "name": "Petter Nordmann",
+            "role": "Daglig leder",
+            "e-mail": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          }
+        ]
+      }
     }
   },
   "footer": {
