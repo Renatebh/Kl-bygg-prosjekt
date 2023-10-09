@@ -48,12 +48,16 @@ p {
   --max-width-mobile: 480px;
 
   /* FONT SIZES HEADINGS */
+  
   --h--step-0: clamp(1.3rem, calc(-0.07rem + 6.65vw), 4rem);
   --h--step-1: clamp(1.35rem, calc(-0.08rem + 7.16vw), 5.47rem);
   --h--step-2: clamp(1.62rem, calc(-0.19rem + 9.07vw), 6.84rem);
   --h--step-3: clamp(1.94rem, calc(-0.35rem + 11.48vw), 8.55rem);
   --h--step-4: clamp(2.33rem, calc(-0.57rem + 14.52vw), 10.68rem);
   --h--step-5: clamp(2.8rem, calc(-0.87rem + 18.35vw), 13.35rem);
+  --h--step-6: clamp(2.8rem, calc(-0.87rem + 18.35vw), 28px);
+
+
 
   /* FONT SIZES PARAGRAPHS */
   --p--step--1: clamp(0.83rem, calc(0.71rem + 0.64vw), 1.2rem);
