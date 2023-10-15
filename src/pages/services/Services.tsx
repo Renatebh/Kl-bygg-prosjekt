@@ -1,19 +1,20 @@
+import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/header/Navbar";
-import Cards from "../../components/projects/ProjectsCards";
+import ServiceCards from "../../components/services/ServiceCards";
 import styles from "./services.module.css";
 
 const Services = () => {
   return (
-    <div>
+    <div className={styles["services-container"]}>
       <section>
         <Navbar />
       </section>
-      <section>
-        <div className={styles["big-project-card"]}></div>
-
-        <div className={styles["small-card-container"]}>
-          <Cards numberOfCards={9} />
-        </div>
+      <section className={styles["cards-section"]}>
+        <h1>Våre tjenester</h1>
+        <ServiceCards />
+      </section>
+      <section className={styles["footer"]}>
+        <Footer />
       </section>
     </div>
   );

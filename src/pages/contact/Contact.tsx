@@ -3,12 +3,13 @@ import { useTranslation } from "react-i18next";
 import styles from "./styles/contact.module.css";
 import Footer from "../../components/footer/Footer";
 import ContactForm from "../../components/form/ContactForm";
+import EmployeesCard from "../../components/employeesCard/Card";
 import { BsTelephoneFill } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 
 const Contact = () => {
-  const [t, i18n] = useTranslation("global");
-  console.log(i18n.getDataByLanguage("no"));
+  const [t] = useTranslation("global");
+  // console.log(i18n.getDataByLanguage("no"));
 
   return (
     <div className={styles["contact-container"]}>
@@ -25,7 +26,8 @@ const Contact = () => {
       <section className={styles["form-section"]}>
         <div className={styles["contact-info"]}>
           <h3>{t("main.contact.contactInfo.heading")}</h3>
-          <div>
+          <div className={styles["contact-address"]}>
+            <p>Sandefjord</p>
             <a className={styles["list-item"]} href="+4791840812">
               <BsTelephoneFill />
               +47 918 40 812
@@ -35,13 +37,25 @@ const Contact = () => {
               odd@klbygg.as
             </a>
           </div>
-          <p>{t("main.contact.contactInfo.text")}</p>
+          <p className={styles["contact-text"]}>
+            {t("main.contact.contactInfo.text.paragraph1")}
+          </p>
+          <br />
+          <p className={styles["contact-text"]}>
+            {t("main.contact.contactInfo.text.paragraph2")}
+          </p>
         </div>
         <div className={styles["form-div"]}>
           <ContactForm />
         </div>
       </section>
-      <section></section>
+      <section className={styles["employees-section"]}>
+        <h3>{t("main.contact.employees.heading")}</h3>
+        <p className={styles["employees-subheading"]}>
+          {t("main.contact.employees.subHeading")}
+        </p>
+        <EmployeesCard />
+      </section>
       <section className={styles["footer"]}>
         <Footer />
       </section>

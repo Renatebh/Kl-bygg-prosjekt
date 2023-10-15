@@ -3,4 +3,6 @@ export interface ServiceItem {
   icon: string;
   header: string;
   description: string;
+  longDescription: string;
+  serviceImage: string;
 }

@@ -37,20 +37,111 @@
   padding: var(--section-padding-web);
   width: 100%;
   display: flex;
+  justify-content: space-between;
 }
 
 .contact-info {
+  display: flex;
+  flex-direction: column;
   width: 50%;
-  background-color: brown;
+  padding: 3rem 0;
+  color: var(--white);
+}
+
+.contact-info h3 {
+  font-size: 32px;
+  margin-bottom: 1rem;
+}
+
+.contact-address {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0 2rem 0;
+}
+
+.contact-address p {
+  font-size: 26px;
+}
+
+.contact-info a {
+  color: var(--white);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.contact-text {
+  font-size: 20px;
 }
 
 .form-div {
-  width: 50%;
-  background-color: aliceblue;
+  width: 40%;
+}
+
+.employees-section {
+  padding: var(--section-padding-web);
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.employees-section h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--red);
+  font-weight: 100;
+  font-size: 26px;
+}
+
+.employees-subheading {
+  text-align: center;
+  color: var(--white);
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 4rem;
 }
 
 .footer {
   padding: var(--section-padding-web);
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  background-color: var(--grey);
+}
+
+@media only screen and (max-width: 1200px) {
+  .heading-section {
+    padding: var(--section-padding-lap);
+  }
+  .form-section {
+    padding: var(--section-padding-lap);
+  }
+  .employees-section {
+    padding: var(--section-padding-lap);
+  }
+  .footer {
+    padding: var(--section-padding-lap);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .heading-section {
+    padding: var(--section-padding-mobile);
+  }
+  .form-section {
+    padding: var(--section-padding-mobile);
+    flex-direction: column;
+  }
+  .form-div {
+    width: 100%;
+  }
+  .contact-info {
+    width: 100%;
+  }
+  .employees-section {
+    padding: var(--section-padding-mobile);
+    justify-content: center;
+  }
+  .footer {
+    padding: var(--section-padding-mobile);
+  }
 }

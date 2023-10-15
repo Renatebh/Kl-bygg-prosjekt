@@ -1,0 +1,48 @@
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card-wrapper {
+  width: calc(33% - 0.5rem);
+  color: var(--white);
+}
+
+.card-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  padding: 2rem 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-text p:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-text p:nth-child(2) {
+  font-style: italic;
+}
+
+.email-phone {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .card-wrapper {
+    width: calc(100% - 0.5rem);
+  }
+  .card-container {
+    gap: 1.5rem;
+  }
+}

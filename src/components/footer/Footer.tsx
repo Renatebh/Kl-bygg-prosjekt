@@ -20,11 +20,11 @@ const Footer = () => {
 
   return (
     <div className={styles["footer-container"]}>
-      <div className={styles["footer-section"]}>
+      <div>
         <img src={logo} alt="logo" />
         <p>{t("footer.text")}</p>
       </div>
-      <div className={styles["footer-section"]}>
+      <div>
         <h4>{information}</h4>
         <ul>
           <li>
@@ -47,7 +47,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className={styles["footer-section"]}>
+      <div>
         <h4>{links}</h4>
         <ul>
           <li>
@@ -64,7 +64,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className={styles["footer-section"]}>
+      <div>
         <h4>{followUs}</h4>
         <FaFacebookSquare size={40} />
       </div>

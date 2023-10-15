@@ -25,37 +25,52 @@
           "id": "Tømrer",
           "icon": "LiaHammerSolid",
           "header": "Tømrer/snekkerfag",
-          "description": "Våre dyktige tømrere og snekkere er klare til å håndtere dine byggeprosjekter med høy kvalitet og presisjon."
+          "description": "Våre dyktige tømrere og snekkere er klare til å håndtere dine byggeprosjekter med høy kvalitet og presisjon.",
+          "longDescription": "Våre erfarne tømrere og snekkere er dedikert til å levere høykvalitets tjenester innen tømrer- og snekkerfaget. Enten det er snakk om å bygge et nytt hus, renovere eksisterende strukturer, eller lage spesialtilpassede møbler, er vårt team av fagfolk klare til å ta på seg oppgaven. Vi legger stor vekt på presisjon og detaljer, og vårt mål er å skape resultater som ikke bare møter, men overstiger dine forventninger. Med vår ekspertise og dedikasjon til håndverket, kan du stole på oss for å levere tømrer- og snekkerarbeid av ypperste kvalitet. Vi jobber tett med våre kunder for å forstå deres spesifikke behov og designpreferanser, og vi er stolte av å kunne gjøre drømmeprosjektene deres til virkelighet.",
+          "serviceImage": "../../images/serviceImages/service-image.jpg"
         },
         {
           "id": "Montering",
           "icon": "LiaToolsSolid",
           "header": "Montering",
-          "description": "Våre erfarne montører sikrer grundig og pålitelig montering av ulike produkter og løsninger. Kvalitet og presisjon er vårt fokus."
+          "description": "Våre erfarne montører sikrer grundig og pålitelig montering av ulike produkter og løsninger. Kvalitet og presisjon er vårt fokus.",
+          "longDescription": "Vårt team av erfarne montører er dedikert til å sikre grundig og pålitelig montering av ulike produkter og løsninger. Vi forstår viktigheten av kvalitet og presisjon i monteringsarbeidet, og dette er alltid vårt hovedfokus. Enten det dreier seg om montering av møbler, apparater eller annet utstyr, kan du stole på vår ekspertise for å sikre at alt er satt sammen på riktig måte, og at det fungerer som det skal. Vi legger stor vekt på å oppfylle dine krav og forventninger når det gjelder montering, og vi jobber hardt for å levere resultater du kan stole på.",
+          "serviceImage": "../../images/serviceImages/service-image2.jpg"
         },
+
         {
           "id": "Betongfag",
           "icon": "BsBricks",
           "header": "Betongfag/grunnarbeid",
-          "description": "Våre eksperter i betongfag og grunnarbeid står klare til å levere solid konstruksjon og perfekt utført grunnarbeid."
+          "description": "Våre eksperter i betongfag og grunnarbeid står klare til å levere solid konstruksjon og perfekt utført grunnarbeid.",
+          "longDescription": "Vårt team av eksperter innen betongfaget og grunnarbeid er dedikert til å levere solid konstruksjon og perfekt utført grunnarbeid. Vi har omfattende erfaring med å arbeide med betong og grunnarbeid for ulike typer prosjekter. Uansett om det dreier seg om bygging av bygninger, infrastruktur eller andre konstruksjoner, kan du stole på vår ekspertise for å sikre at arbeidet utføres med høy kvalitet og nøye planlegging. Vi tar vårt ansvar for å bygge sterke fundament og solide betongstrukturer alvorlig, og vi er klare til å levere resultater som varer.",
+          "serviceImage": "../../images/serviceImages/service-image.jpg"
         },
+
         {
           "id": "Riving",
           "icon": "LiaTrashAlt",
           "header": "Riving/sanering",
-          "description": "Vi er spesialister på effektiv rivning og sikker sanering. Vårt team håndterer prosessen med profesjonalitet og nøye planlegging."
+          "description": "Vi er spesialister på effektiv rivning og sikker sanering. Vårt team håndterer prosessen med profesjonalitet og nøye planlegging.",
+          "longDescription": "Vår ekspertise innen riving og sanering gjør oss til spesialister på å håndtere effektiv rivning og trygg sanering. Vårt dedikerte team har omfattende erfaring med å rive ned strukturer og utføre sanering på en profesjonell måte. Vi legger stor vekt på nøye planlegging for å sikre at rivnings- og saneringsprosessen går problemfritt. Sikkerheten til våre teammedlemmer og miljøet er alltid vår høyeste prioritet. Du kan stole på oss for å håndtere hele prosessen med ekspertise og profesjonalitet, uansett prosjektets omfang og kompleksitet.",
+          "serviceImage": "../../images/serviceImages/service-image2.jpg"
         },
+
         {
           "id": "Riggarbeid",
           "icon": "FaHardHat",
           "header": "Riggarbeid",
-          "description": "Vårt dedikerte team er eksperter på riggarbeid og kan håndtere komplekse prosjekter med presisjon og sikkerhet."
+          "description": "Vårt dedikerte team er eksperter på riggarbeid og kan håndtere komplekse prosjekter med presisjon og sikkerhet.",
+          "longDescription": "Vårt dedikerte team av eksperter er spesialisert på riggarbeid og har omfattende erfaring med å håndtere selv de mest komplekse prosjektene med presisjon og sikkerhet. Uansett om det dreier seg om heising, transport eller installasjon av tunge utstyr og strukturer, er vi klare til å levere. Vi setter alltid sikkerheten i høysetet, og vårt mål er å sikre at riggarbeidet utføres på en pålitelig og effektiv måte. Vi jobber tett med kundene våre for å forstå deres behov og spesifikasjoner, og vi streber alltid etter å oppnå de beste resultatene innen rigging.",
+          "serviceImage": "../../images/serviceImages/service-image.jpg"
         },
         {
           "id": "Flytting",
           "icon": "BsBoxFill",
           "header": "Flytting",
-          "description": "Trenger du hjelp til flytting? Vårt team står klare til å håndtere alle aspekter av flytteprosessen for deg."
+          "description": "Trenger du hjelp til flytting? Vårt team står klare til å håndtere alle aspekter av flytteprosessen for deg.",
+          "longDescription": "Vårt dedikerte flyttingsteam er klare til å hjelpe deg med alle aspekter av flytteprosessen. Enten det dreier seg om å flytte til en ny bolig, kontor eller bedriftslokale, kan du stole på oss for å gjøre prosessen enkel og problemfri. Vi tilbyr tjenester som pakking, transport, lasting og lossing, og vi tar vare på dine eiendeler som om de var våre egne. Vårt mål er å gjøre flyttingen så smidig som mulig, slik at du kan fokusere på det som betyr mest. La oss ta ansvaret for flyttingen, og du vil oppleve en stressfri overgang til ditt nye sted.",
+          "serviceImage": "../../images/serviceImages/service-image2.jpg"
         }
       ]
     },
@@ -212,52 +227,61 @@
       },
       "contactInfo": {
         "heading": "Kontakt info",
-        "text": "KL-Bygg både i Oslo og Sandefjord deler kontorer med rekrutteringsselskapet HIRE og kursspesialisten SMG kurs. Selv om vi er selvstendige selskaper, har både vi og våre kunder stor nytte av synergien mellom våre fire søsterselskap. Vi rekrutterer kontinuerlig året rundt."
+        "text": {
+          "paragraph1": "KL-Bygg både i Oslo og Sandefjord deler kontorer med rekrutteringsselskapet HIRE og kursspesialisten SMG kurs. Selv om vi er selvstendige selskaper, har både vi og våre kunder stor nytte av synergien mellom våre fire søsterselskap.",
+          "paragraph2": "Vi rekrutterer kontinuerlig året rundt."
+        }
       },
       "employees": {
-        "heading": "Våre ansatt",
+        "heading": "Våre ansatte",
         "subHeading": "Vi bygger for din komfort",
-        "emplyeesData": [
+        "employeesData": [
           {
             "id": "1",
+            "image": "../../images/employeesImages/blank-profile-picture.png",
             "name": "Ola Nordmann",
             "role": "Daglig leder",
-            "e-mail": "ola@klbygg.no",
+            "email": "ola@klbygg.no",
             "phone": "+47 918 40 812"
           },
           {
             "id": "2",
+            "image": "../../images/employeesImages/profile.png",
             "name": "Per Nordmann",
             "role": "Daglig leder",
-            "e-mail": "ola@klbygg.no",
+            "email": "ola@klbygg.no",
             "phone": "+47 918 40 812"
           },
           {
             "id": "3",
+            "image": "../../images/employeesImages/blank-profile-picture.png",
             "name": "Odd Nordmann",
             "role": "Daglig leder",
-            "e-mail": "ola@klbygg.no",
+            "email": "ola@klbygg.no",
             "phone": "+47 918 40 812"
           },
           {
             "id": "4",
+            "image": "../../images/employeesImages/profile.png",
             "name": "Olav Nordmann",
             "role": "Daglig leder",
-            "e-mail": "ola@klbygg.no",
+            "email": "ola@klbygg.no",
             "phone": "+47 918 40 812"
           },
           {
             "id": "5",
+            "image": "../../images/employeesImages/blank-profile-picture.png",
             "name": "Lars Nordmann",
             "role": "Daglig leder",
-            "e-mail": "ola@klbygg.no",
+            "email": "ola@klbygg.no",
             "phone": "+47 918 40 812"
           },
           {
             "id": "6",
+            "image": "../../images/employeesImages/profile.png",
             "name": "Petter Nordmann",
             "role": "Daglig leder",
-            "e-mail": "ola@klbygg.no",
+            "email": "ola@klbygg.no",
             "phone": "+47 918 40 812"
           }
         ]
