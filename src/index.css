@@ -13,7 +13,24 @@ body {
   width: 100%;
   max-width: var(--max-width-desktop);
   margin: 0 auto;
-  /* background-color: var(--darkGrey); */
+}
+
+@media only screen and (max-width: 1280px) {
+  body {
+    max-width: var(--max-width-laptop);
+  } 
+}
+
+@media only screen and (max-width: 769px) {
+  body {
+    max-width: var(--max-width-tablet);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    max-width: var(--max-width-mobile);
+  }
 }
 
 html,
@@ -24,6 +41,24 @@ body {
 p {
   line-height: 1.5;
 }
+
+h1{
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.25rem, 3vw, 2.5rem);
+}
+
+
 
 :root {
   font-size: 16px;
@@ -39,7 +74,8 @@ p {
   /* SECTION SPACING */
   --section-padding-web: 4rem 10rem;
   --section-padding-lap: 4rem 6rem;
-  --section-padding-mobile: 2rem;
+  --section-padding-tab: 2rem 4rem;
+  --section-padding-mob: 2rem;
 
   /* MAX-WIDTH */
   --max-width-desktop: 1920px;

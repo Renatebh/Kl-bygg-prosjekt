@@ -36,7 +36,7 @@ const ServiceCards = () => {
               {IconComponent &&
                 React.createElement(
                   IconComponent,
-                  { size: 70, className: styles["card-icon"] },
+                  { className: styles["card-icon"] },
                   null
                 )}
 

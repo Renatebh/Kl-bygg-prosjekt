@@ -22,42 +22,55 @@
       },
       "service": [
         {
-          "id": "Tømrer",
+          "id": "Cieśla",
           "icon": "LiaHammerSolid",
           "header": "Cieśla/Stolarz",
-          "description": "Nasi wykwalifikowani cieśle i stolarze są gotowi zajmować się Twoimi projektami budowlanymi z wysoką jakością i precyzją."
+          "description": "Nasi doświadczeni cieśle i stolarze są gotowi zająć się Twoimi projektami budowlanymi z wysoką jakością i precyzją.",
+          "longDescription": "Nasi doświadczeni cieśle i stolarze są oddani dostarczaniu usług o najwyższej jakości w dziedzinie ciesielstwa i stolarstwa. Bez względu na to, czy budujesz nowy dom, renowujesz istniejące struktury czy tworzysz meble na zamówienie, nasz zespół fachowców jest gotowy do podjęcia się zadania. Zależy nam na precyzji i szczegółach, a naszym celem jest tworzenie wyników, które nie tylko spełniają, ale również przewyższają Twoje oczekiwania. Dzięki naszemu doświadczeniu i oddaniu dla rzemiosła możesz polegać na nas, aby dostarczyć ciesielstwo i stolarstwo najwyższej jakości. Ścisła współpraca z naszymi klientami pozwala nam zrozumieć ich konkretne potrzeby i preferencje projektowe, a jesteśmy dumni z możliwości realizacji ich marzeń.",
+          "serviceImage": "../../images/serviceImages/service-image.jpg"
         },
         {
-          "id": "Montering",
+          "id": "Montaż",
           "icon": "LiaToolsSolid",
           "header": "Montaż",
-          "description": "Nasi doświadczeni montażyści zapewniają solidny i niezawodny montaż różnych produktów i rozwiązań. Naszym celem jest jakość i precyzja."
+          "description": "Nasi doświadczeni montażyści zapewniają dokładny i niezawodny montaż różnych produktów i rozwiązań. Kvalitet og presisjon er vårt fokus.",
+          "longDescription": "Nasz zespół doświadczonych montażystów poświęca się zapewnieniu dokładnego i niezawodnego montażu różnych produktów i rozwiązań. Rozumiemy znaczenie jakości i precyzji w pracy montażowej, i zawsze jest to naszym głównym celem. Bez względu na to, czy chodzi o montaż mebli, urządzeń czy innych sprzętów, możesz polegać na naszej wiedzy, aby upewnić się, że wszystko jest poprawnie złożone i działa zgodnie z przeznaczeniem. Dokładamy wszelkich starań, aby spełnić Twoje wymagania i oczekiwania w zakresie montażu, i ciężko pracujemy, aby dostarczyć resultater du kan stole på.",
+          "serviceImage": "../../images/serviceImages/service-image2.jpg"
         },
         {
-          "id": "Betongfag",
+          "id": "Budownictwo betonowe",
           "icon": "BsBricks",
-          "header": "Beton/Budowa gruntów",
-          "description": "Nasi eksperci w dziedzinie betonu i budowy gruntów są gotowi dostarczyć solidne konstrukcje i doskonale wykonane prace gruntowe."
+          "header": "Budownictwo betonowe/prace ziemne",
+          "description": "Nasi eksperci ds. budownictwa betonowego i prac ziemnych są gotowi dostarczyć solidne konstrukcje i doskonale wykonane prace ziemne.",
+          "longDescription": "Nasz zespół ekspertów ds. budownictwa betonowego i prac ziemnych poświęca się dostarczaniu solidnych konstrukcji i doskonale wykonanych prac ziemnych. Mamy szerokie doświadczenie w pracy z betonem i pracach ziemnych dla różnych rodzajów projektów. Niezależnie od tego, czy chodzi o budowę budynków, infrastrukturę czy inne konstrukcje, możesz polegać na naszym doświadczeniu, aby zadanie zostało wykonane z wysoką jakością i starannym planowaniem. Jesteśmy odpowiedzialni za budowanie solidnych fundamentów i betonowych konstrukcji, a naszym celem jest dostarczenie trwałych rezultatów.",
+          "serviceImage": "../../images/serviceImages/service-image.jpg"
         },
         {
-          "id": "Riving",
+          "id": "Rozbiórka",
           "icon": "LiaTrashAlt",
-          "header": "Demontaż/Dekontaminacja",
-          "description": "Jesteśmy specjalistami w efektywnym demontażu i bezpiecznej dekontaminacji. Nasz zespół prowadzi proces profesjonalnie i starannie planuje."
+          "header": "Rozbiórka/sanacja",
+          "description": "Jesteśmy specjalistami w zakresie efektywnej rozbiórki i bezpiecznej sanacji. Nasz zespół profesjonalnie i starannie planuje proces.",
+          "longDescription": "Nasza wiedza i doświadczenie w zakresie rozbiórki i sanacji czynią nas specjalistami w zakresie skutecznej rozbiórki i bezpiecznej sanacji. Nasz oddany zespół ma szerokie doświadczenie w usuwaniu struktur i profesjonalnym przeprowadzaniu prac sanacyjnych. Przykładamy dużą wagę do starannego planowania, aby zagwarantować płynny przebieg procesu rozbiórki i sanacji. Bezpieczeństwo naszych pracowników i środowiska jest zawsze naszym najwyższym priorytetem. Możesz polegać na nas w kwestii kompleksowego zarządzania całym procesem z naszym doświadczeniem i profesjonalizmem, niezależnie od rozmiaru i złożoności projektu.",
+          "serviceImage": "../../images/serviceImages/service-image2.jpg"
         },
         {
-          "id": "Riggarbeid",
+          "id": "Prace riggingowe",
           "icon": "FaHardHat",
-          "header": "Prace przy sprzęcie",
-          "description": "Nasz oddany zespół jest ekspertem w pracach przy sprzęcie specjalistycznym i może obsługiwać skomplikowane projekty z precyzją i bezpieczeństwem."
+          "header": "Prace riggingowe",
+          "description": "Nasz oddany zespół specjalizuje się w pracach riggingowych i może obsługiwać różnorodne potrzeby w zakresie przenoszenia i ustawiania ciężkich przedmiotów.",
+          "longDescription": "Nasz oddany zespół specjalizuje się w różnorodnych pracach riggingowych, zapewniając kompleksowe rozwiązania dla przenoszenia i ustawiania ciężkich przedmiotów. Niezależnie od tego, czy chodzi o przemieszczanie maszyn przemysłowych, elementów konstrukcyjnych czy innych ciężkich ładunków, jesteśmy gotowi zająć się Twoimi potrzebami w zakresie riggingu. Nasze usługi obejmują pełne planowanie, bezpieczne przenoszenie oraz precyzyjne ustawianie, aby zagwarantować skuteczne i bezpieczne wykonanie pracy. Dzięki naszemu doświadczeniu i profesjonalizmu możesz polegać na nas, aby zrealizować prace riggingowe na najwyższym poziomie.",
+          "serviceImage": "../../images/serviceImages/service-image.jpg"
         },
         {
-          "id": "Flytting",
+          "id": "Przeprowadzki",
           "icon": "BsBoxFill",
           "header": "Przeprowadzki",
-          "description": "Potrzebujesz pomocy przy przeprowadzce? Nasz zespół jest gotów obsługiwać wszystkie aspekty procesu przeprowadzki dla Ciebie."
+          "description": "Potrzebujesz pomocy w przeprowadzce? Nasz zespół jest gotowy obsłużyć wszystkie aspekty procesu przeprowadzki dla Ciebie.",
+          "longDescription": "Nasz oddzielny zespół ds. przeprowadzek jest gotów pomóc w obsłudze wszystkich aspektów procesu przeprowadzki. Bez względu na to, czy przeprowadzasz się do nowego mieszkania, biura czy lokalu firmowego, możesz polegać na nas, aby ułatwić Ci ten proces. Oferujemy usługi takie jak pakowanie, transport, załadunek i rozładunek, i traktujemy Twoje mienie tak, jakby było nasze. Naszym celem jest sprawienie, aby przeprowadzka przebiegła jak najbardziej sprawnie, abyś mógł skoncentrować się na tym, co jest dla Ciebie najważniejsze. Pozwól nam zająć się przeprowadzką, a doświadczysz bezproblemowego przejścia do nowego miejsca.",
+          "serviceImage": "../../images/serviceImages/service-image2.jpg"
         }
-      ]
+    ]
+    
     },
     "jobOpportunities": {
       "heading": "Czy chcesz pracować w kl-bygg?",
@@ -197,6 +210,80 @@
       "heading": "O nas",
       "subheading": "Oferujemy kompleksowe usługi budowlane, w tym usługi związane z montażem i obsługą sprzętu. Nasze obszary działalności obejmują stolarstwo, montaż, prace betonowe i ziemne, a także tymczasowe zlecenia za pośrednictwem naszego własnego działu usług tymczasowych.",
       "text": "Jesteśmy oddanym zespołem profesjonalnych budowniczych i deweloperów, którzy pasjonują się tworzeniem inspirujących i funkcjonalnych budowli. Dzięki naszemu doświadczeniu i ekspertyzie od wielu lat dostarczamy udane projekty w branży budowlanej. Nasza firma z dumą oferuje spersonalizowane rozwiązania dla naszych klientów. Bez względu na to, czy planujesz nowy projekt mieszkaniowy, nieruchomość komercyjną czy remont, posiadamy wiedzę i doświadczenie potrzebne do realizacji Twojej wizji. Ściśle współpracujemy z naszymi klientami, aby zrozumieć ich potrzeby i cele, a także kładziemy duży nacisk na dostarczanie jakości, efektywności i niezawodności na każdym etapie procesu."
+    },
+    "contact": {
+      "heading": "Kontaktuj się z nami",
+      "subHeading": "Potrzebujesz oferty, chcesz złożyć podanie o pracę lub masz inne pytania?",
+      "contactForm": {
+        "heading": "Wyślij nam wiadomość",
+        "problems": "Masz problemy?",
+        "contactUs": "Skontaktuj się z nami",
+        "inputName": "Imię",
+        "inputEmail": "E-mail",
+        "inputMessage": "Wiadomość",
+        "button": "Wyślij"
+      },
+      "contactInfo": {
+        "heading": "Informacje kontaktowe",
+        "text": {
+          "paragraph1": "KL-Bygg w Oslo i Sandefjord współdzielą biura z firmą rekrutacyjną HIRE i specjalistą w zakresie kursów SMG kurs. Chociaż jesteśmy niezależnymi firmami, zarówno my, jak i nasi klienci czerpiemy korzyści z synergii między naszymi czterema siostrzanymi firmami.",
+          "paragraph2": "Kontynuujemy rekrutację przez cały rok."
+        }
+      },
+      "employees": {
+        "heading": "Nasi pracownicy",
+        "subHeading": "Budujemy dla Twojej wygody",
+        "employeesData": [
+          {
+            "id": "1",
+            "image": "../../images/employeesImages/blank-profile-picture.png",
+            "name": "Ola Nordmann",
+            "role": "Dyrektor Generalny",
+            "email": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          },
+          {
+            "id": "2",
+            "image": "../../images/employeesImages/profile.png",
+            "name": "Per Nordmann",
+            "role": "Dyrektor Generalny",
+            "email": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          },
+          {
+            "id": "3",
+            "image": "../../images/employeesImages/blank-profile-picture.png",
+            "name": "Odd Nordmann",
+            "role": "Dyrektor Generalny",
+            "email": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          },
+          {
+            "id": "4",
+            "image": "../../images/employeesImages/profile.png",
+            "name": "Olav Nordmann",
+            "role": "Dyrektor Generalny",
+            "email": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          },
+          {
+            "id": "5",
+            "image": "../../images/employeesImages/blank-profile-picture.png",
+            "name": "Lars Nordmann",
+            "role": "Dyrektor Generalny",
+            "email": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          },
+          {
+            "id": "6",
+            "image": "../../images/employeesImages/profile.png",
+            "name": "Petter Nordmann",
+            "role": "Dyrektor Generalny",
+            "email": "ola@klbygg.no",
+            "phone": "+47 918 40 812"
+          }
+        ]
+      }
     }
   },
   "footer": {
