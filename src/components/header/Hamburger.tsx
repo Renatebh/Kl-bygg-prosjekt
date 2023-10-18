@@ -1,12 +1,20 @@
-import { IoMdMenu } from "react-icons/io";
+import { IoMdMenu, IoMdClose } from "react-icons/io";
+// import { FaTimes } from "react-icons/fa";
 import styles from "./styles/hamburger.module.css";
 import { HamburgerProps } from "../../interfaces/hamburger";
 
-const Hamburger = ({ onClick }: HamburgerProps) => {
+const Hamburger = ({ onClick, menuOpen }: HamburgerProps) => {
+  console.log(onClick);
   return (
+    <div>
     <button onClick={onClick} className={styles["hamburger-button"]}>
-      <IoMdMenu className={styles["hamburger-icon"]} size={30} />
+      {menuOpen && (
+        <IoMdClose className={styles["hamburger-icon"]} size={30} />
+      ) || (
+        <IoMdMenu className={styles["hamburger-icon"]} size={30} />
+      )}
     </button>
+  </div>
   );
 };
 

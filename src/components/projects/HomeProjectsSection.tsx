@@ -14,7 +14,7 @@ const HomeProjectsSection = () => {
       <h2 className={styles["headline"]}>
         {t("main.projects.headings.headingTwo")}
       </h2>
-      <div className={styles["cards-container"]}>
+      <div >
         <ProjectsCards numberOfCards={7} />
       </div>
       <div className={styles["link-projects"]}>

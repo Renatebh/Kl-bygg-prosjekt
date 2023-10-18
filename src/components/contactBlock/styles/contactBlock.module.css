@@ -1,17 +1,25 @@
 .contactblock-container {
-  width: 70%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 10rem;
 }
 
 .contactblock-container p {
   color: var(--white);
-  font-size: var(--p--step-1);
-  display: flex;
-  flex-direction: column; /* To stack the elements vertically */
-  align-items: center; /* To center horizontally */
-  justify-content: center; /* To center vertically */
-  text-align: center; /* To center text within the container */
-  height: 100%;
+  font-size: var(--p--step-2);
+}
+
+@media only screen and (max-width: 1280px) {
+  .contactblock-container p {
+    font-size: var(--p--step-0);
+  }
+}
+
+@media only screen and (max-width: 769px) {
+.contactblock-container{
+  flex-direction: column;
+  gap: 2rem;
+}
 }

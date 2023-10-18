@@ -10,14 +10,15 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-    console.log("hello");
+    console.log("menuOpen in Navbar:", menuOpen);
   };
 
+ 
   return (
     <header className={styles["header-container"]}>
       <Logo />
       <div className={styles["header-links"]}>
-        <Hamburger onClick={toggleMenu} />
+        <Hamburger onClick={toggleMenu} menuOpen={menuOpen}/>
         <NavLinks currentRoute={window.location.pathname} menuOpen={menuOpen} />
         <ChangeLanguageBtn />
       </div>

@@ -7,8 +7,7 @@ import imageOne from "../../images/projectImages/construction-worke.jpg";
 import imageTwo from "../../images/projectImages/klbygg.jpg";
 
 const About = () => {
-  const [t, i18n] = useTranslation("global");
-  console.log(i18n.getDataByLanguage("no"));
+  const [t] = useTranslation("global");
 
   return (
     <div className={styles["about-container"]}>
@@ -17,10 +16,10 @@ const About = () => {
           <Navbar />
         </section>
       </div>
-      <section className={styles["content-container"]}>
+      <section className={`${styles["content-container"]} ${styles["section-spacing"]}`}>
         <div className={styles["text-container"]}>
           <h1>{t("main.about.heading")}</h1>
-          <p className={styles["subheading"]}>{t("main.about.subheading")}</p>
+          <p className={styles['for-text']}>{t("main.about.subheading")}</p>
           <p>{t("main.about.text")}</p>
         </div>
 

@@ -5,15 +5,15 @@
   gap: 2rem;
 }
 
-.our-services {
+.our-services-heading {
   color: var(--red);
   font-size: var(--p--step-0);
-  font-weight: 300;
+  font-weight: var(--font-weight-thin);
 }
 
 .headline {
   color: var(--white);
-  font-weight: bold;
+  font-weight: var(--font-weight-thick);
   font-size: var(--p--step-2);
   padding-bottom: 4rem;
 }
@@ -39,13 +39,13 @@
 }
 
 .card-header {
-  font-weight: 300;
-  font-size: var(--p--step-0);
+  font-weight: var(--font-weight-thin);
   padding-bottom: 2rem;
 }
 
 .card-description {
-  font-weight: 300;
+  font-weight: var(--font-weight-thin);
+  font-size: var(--p--step-0);
   text-align: center;
 }
 

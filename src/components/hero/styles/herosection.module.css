@@ -1,15 +1,25 @@
 .hero-container {
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 2rem;
   color: var(--white);
-}
-
-.hero-heading {
-  font-size: var(--h--step-0);
+  width: 60%;
 }
 
 .hero-paragraph {
-  font-size: var(--p--step--1);
+  font-size: var(--p--step-0);
   margin-top: 2rem;
+  width: 80%;
+}
+
+@media only screen and (max-width: 1280px) {
+  .hero-container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+ .hero-container{
+  width: 90%;
+ } 
 }

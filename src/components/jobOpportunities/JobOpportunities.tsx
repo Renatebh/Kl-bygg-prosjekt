@@ -13,7 +13,7 @@ const JobOpportunities = () => {
         <h3 className={styles["header"]}>
           {t("main.jobOpportunities.heading")}
         </h3>
-        <p className={styles["text"]}>{t("main.jobOpportunities.text")}</p>
+        <p>{t("main.jobOpportunities.text")}</p>
         <br />
         <Link to={"/contact"} className={styles["link"]}>
           {t("main.jobOpportunities.link")}

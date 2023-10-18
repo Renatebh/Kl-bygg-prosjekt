@@ -1,7 +1,8 @@
 .link-content {
   color: var(--red);
-  font-weight: bold;
-  font-size: var(--p--step-1);
+  font-weight: var(--font-weight-thick);
+  font-size: var(--p--step-0);
+  text-decoration: underline;
   display: flex;
   align-items: center;
   gap: 0.5rem;

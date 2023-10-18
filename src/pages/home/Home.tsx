@@ -21,7 +21,7 @@ const Home = () => {
       <section className={`${styles["services"]} ${styles["section-spacing"]}`}>
         <HomeServices />
       </section>
-      <section className={`${styles["job-opportunities"]} `}>
+      <section className={`${styles["job-opportunities"]}`}>
         <JobOpportunities />
       </section>
       <section className={`${styles["projects"]} ${styles["section-spacing"]}`}>

@@ -4,7 +4,8 @@
   color: var(--white);
   padding: 1rem 4.375rem;
   text-transform: uppercase;
-  font-weight: 300;
+  font-size: var(--p--step--1);
+  border-radius: var(--border-radius-btn);
 }
 
 .contact-btn:hover {

@@ -9,5 +9,7 @@
 @media screen and (max-width: 950px) {
   .logo-img {
     width: 6.25rem;
+    position: relative;
+    z-index: 100;
   }
 }

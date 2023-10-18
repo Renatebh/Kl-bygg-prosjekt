@@ -25,12 +25,12 @@ const HomeServices = () => {
 
   return (
     <div className={styles["homeServices-container"]}>
-      <h2 className={styles["our-services"]}>
+      <h2 className={styles["our-services-heading"]}>
         {t("main.services.headings.headingOne")}
       </h2>
-      <h3 className={styles["headline"]}>
+      <p className={styles["headline"]}>
         {t("main.services.headings.headingTwo")}
-      </h3>
+      </p>
       <div className={styles["card-container"]}>
         {homeServicesData.map((data) => {
           const IconComponent = iconComponents[data.icon];

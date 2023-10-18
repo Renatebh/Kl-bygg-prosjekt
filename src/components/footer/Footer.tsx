@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 
 const Footer = () => {
   const [t] = useTranslation("global");
-  // console.log(i18n.getDataByLanguage("no"));
+
   const headings = t("footer.headings", {
     returnObjects: true,
   }) as string[];
@@ -20,11 +20,11 @@ const Footer = () => {
 
   return (
     <div className={styles["footer-container"]}>
-      <div>
+      <div className={styles['logo-wrapper']}>
         <img src={logo} alt="logo" />
         <p>{t("footer.text")}</p>
       </div>
-      <div>
+      <div className={styles['address-wrapper']}>
         <h4>{information}</h4>
         <ul>
           <li>

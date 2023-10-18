@@ -46,7 +46,7 @@
 
 .card-text p:nth-child(4) {
   font-size: var(--p--step--1);
-  font-weight: 200;
+  font-weight: var(--font-weight-thin);
 }
 
 .card-icon{

@@ -5,15 +5,29 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 4rem;
+  font-size: var(--p--step--1);
 }
+
+.logo-wrapper{
+  width: 20%;
+}
+
+.footer-container img{
+  margin-bottom: 1rem;
+}
+
+/* .footer-container:nth-child(1) p {
+  width: 100%;
+} */
 
 .footer-container a {
   color: var(--white);
+  text-transform: capitalize;
 }
 
 .footer-container h4 {
-  font-size: var(--p--step-0);
-  font-weight: 400;
+  font-size: var(--p--step-2);
+  font-weight: var(--font-weight-thin);
   margin-bottom: 1rem;
 }
 
@@ -27,8 +41,12 @@
   gap: 0.5rem;
 }
 
-@media only screen and (max-width: 560px) {
-  .footer-container {
-    gap: 2rem;
+@media only screen and (max-width: 769px) {
+  .logo-wrapper{
+    width: 100%;
+   
+  }
+  .address-wrapper {
+    width: 100%;  
   }
 }

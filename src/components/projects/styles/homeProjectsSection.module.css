@@ -1,24 +1,18 @@
 .our-projects {
   color: var(--red);
   font-size: var(--p--step-0);
-  font-weight: 300;
+  font-weight: var(--font-weight-thin);
   text-align: center;
 }
 
 .headline {
   color: var(--white);
-  font-weight: bold;
+  font-weight: var(--font-weight-thick);
   font-size: var(--p--step-2);
   padding-bottom: 4rem;
   text-align: center;
 }
 
-.cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: space-between;
-}
 
 .link-projects {
   text-align: center;
@@ -29,9 +23,9 @@
   height: 6rem;
 }
 
-@media screen and (max-width: 1890px) {
+/* @media screen and (max-width: 1890px) {
   .cards-container {
     justify-content: center;
     gap: 2rem;
   }
-}
+} */
