@@ -2,6 +2,11 @@
   background-color: var(--darkGrey);
 }
 
+.big-card h1{
+  color: var(--white);
+  margin-bottom: 2rem;
+  }
+
 .section-spacing {
   padding: var(--section-padding-web);
 

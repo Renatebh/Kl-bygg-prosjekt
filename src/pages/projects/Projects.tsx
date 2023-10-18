@@ -17,6 +17,7 @@ const Projects = () => {
         <Navbar />
       </section>
       <section className={`${styles["section-spacing"]} ${styles["big-card"]}`}>
+        <h1>Våre prosjekter</h1>
         <BigProjectCard />
       </section>
       <section

@@ -1,9 +1,10 @@
 import styles from "./styles/bigProjectCard.module.css";
 import projectsData from "../../translations/no/global.json";
-import { Link } from "react-router-dom";
 import imageData from "../../images/json/imageData.json";
+import { useNavigate } from "react-router-dom";
 
 const BigProjectCard = () => {
+  const navigate = useNavigate()
   const projects = projectsData.main.projects.projectCards;
 
   const sortedProjects = projects.sort((a, b) => {
@@ -14,11 +15,14 @@ const BigProjectCard = () => {
 
   const firstProjects = sortedProjects.slice(0, 1);
 
+  const handleCardClick = (id: number) => {
+    navigate(`/projects/${id}`);
+  };
+
   return (
     <>
       {firstProjects.map((project) => (
-        <div key={project.id} className={styles["card-wrapper"]}>
-          <Link to={`/projects/${encodeURIComponent(project.name)}`}>
+        <div key={project.id} className={styles["card-wrapper"]} onClick={() => handleCardClick(project.id)}>
             {imageData.map((image, index) => {
               if (image.id === project.id) {
                 return (
@@ -36,7 +40,7 @@ const BigProjectCard = () => {
               <h3 className={styles["project-name"]}>{project.name}</h3>
               <p className={styles["project-date"]}> {project.timezone}</p>
             </div>
-          </Link>
+        
         </div>
       ))}
     </>
