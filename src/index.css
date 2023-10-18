@@ -88,6 +88,7 @@ h3 {
   --section-padding-lap-job: 0 0 0 6rem;
   --section-padding-tab-job: 0 0 0 4rem;
   --section-padding-mob-job: 2rem;
+  --section-padding-tab-projects: 0 4rem;
 
   /* MAX-WIDTH */
   --max-width-desktop: 1920px;

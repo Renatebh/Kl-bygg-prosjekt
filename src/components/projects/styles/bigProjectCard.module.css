@@ -28,3 +28,27 @@
   color: var(--red);
   font-size: var(--p--step-0);
 }
+
+
+
+@media only screen and (max-width: 769px) {
+.image{
+  height: 358px;
+}
+.text-box{
+  width: 50%;
+  height: 72px;
+  padding: 1rem 0 0 1rem;
+}
+.project-name{
+  font-size: var(--p--step-0);
+ margin-bottom: 6px;
+ padding-bottom: 0;
+}
+}
+
+@media only screen and (max-width: 480px) {
+  .image{
+    height: 233px;
+  }
+}

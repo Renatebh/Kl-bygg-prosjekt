@@ -22,15 +22,11 @@ const Projects = () => {
       <section
         className={`${styles["section-spacing"]} ${styles["small-cards-container"]}`}
       >
-        <ProjectsCards numberOfCards={9} />
+        <ProjectsCards numberOfCards={7} />
       </section>
       <section
         className={`${styles["contact-block"]} ${styles["section-spacing"]}`}
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
+     
       >
         <ContactBlock />
       </section>
