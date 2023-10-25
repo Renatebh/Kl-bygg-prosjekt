@@ -1,0 +1,7 @@
+.slider-image{
+    width: 100px;
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+    border: 1px solid #ccc; /* Example border style */
+    margin: 5px;
+}

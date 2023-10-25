@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 // register();
 import "swiper/swiper-bundle.css";
+import styles from './styles/slider.module.css'
 
 interface ImageSliderProps {
     images: string[];
@@ -27,7 +28,7 @@ const Slider = ({images, projectName}: ImageSliderProps) => {
     >
         {images.map((image, index) => (
             <SwiperSlide key={index}>
-                <img src={image} alt={`Slide ${projectName} ${index + 1}`} />
+                <img className={styles['slider-image']} src={image} alt={`Slide ${projectName} ${index + 1}`} />
             </SwiperSlide>
         ))}
     </Swiper>
