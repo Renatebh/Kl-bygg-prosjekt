@@ -3,8 +3,8 @@ import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/header/Navbar";
 import styles from "./styles/about.module.css";
 import { useTranslation } from "react-i18next";
-import imageOne from "../../images/projectImages/construction-worke.jpg";
-import imageTwo from "../../images/projectImages/klbygg.jpg";
+import imageOne from "../../images/imagesForPages/construction-worke.jpg";
+import imageTwo from "../../images/imagesForPages/klbygg.jpg";
 
 const About = () => {
   const [t] = useTranslation("global");

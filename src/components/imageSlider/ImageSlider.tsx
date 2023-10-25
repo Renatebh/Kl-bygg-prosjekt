@@ -10,6 +10,7 @@ const ImageSlider = ({ images }: ImageSliderProps) => {
   const [startIndex, setStartIndex] = useState(0);
   const [numberOfVisibleImages, setNumberOfVisibleImages] = useState(Number);
 
+  // console.log(images)
   const prevSlide = () => {
     setStartIndex((prevIndex) =>
       prevIndex === 0 ? images.length - numberOfVisibleImages : prevIndex - 1

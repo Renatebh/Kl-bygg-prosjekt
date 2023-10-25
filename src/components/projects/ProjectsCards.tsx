@@ -1,7 +1,7 @@
 import styles from "./styles/projectCards.module.css";
 import { useNavigate } from "react-router-dom";
 import projectsData from "../../translations/no/global.json";
-import imageData from "../../images/json/imageData.json";
+import imageData from "../../images/projectImages/json/imageData.json";
 
 interface NumberOfCardsProps {
   numberOfCards: number;
@@ -9,6 +9,7 @@ interface NumberOfCardsProps {
 
 const ProjectsCards = ({ numberOfCards }: NumberOfCardsProps) => {
   const navigate = useNavigate();
+  console.log(imageData)
 
   const projects = projectsData.main.projects.projectCards;
 

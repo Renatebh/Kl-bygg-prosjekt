@@ -18,26 +18,27 @@
 .info {
   background-color: var(--grey);
   width: 30%;
-  height: 326px;
+  height: auto;
   position: absolute;
   right: 0;
   bottom: -10rem;
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .info-top {
-  width: 60%;
+  width: auto;
   display: flex;
   justify-content: space-between;
 }
 
 .info h2 {
-  font-size: var(--p--step-0);
   padding-bottom: 2rem;
 }
 
 .info p {
   padding-bottom: 1rem;
+  font-size: var(--p--step--1);
+  font-weight: var(--font-weight-thin);
 }
 
 .line {
@@ -58,19 +59,21 @@
 
 .service-wrapper p {
   font-size: var(--p--step-0);
+  text-transform: capitalize;
 }
 
 .project-story-container {
-  width: 50%;
+  width: 60%;
   padding: 2rem;
 }
 
 .project-story-container h3 {
-  font-size: var(--p--step-0);
+
   padding-bottom: 2rem;
 }
 
 .project-story-container p {
-  font-size: var(--p--step--0);
-  padding-bottom: 2rem;
+  font-size: var(--p--step-0);
+  font-weight: var(--font-weight-thin);
 }
+

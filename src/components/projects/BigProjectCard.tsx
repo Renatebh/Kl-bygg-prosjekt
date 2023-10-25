@@ -1,6 +1,6 @@
 import styles from "./styles/bigProjectCard.module.css";
 import projectsData from "../../translations/no/global.json";
-import imageData from "../../images/json/imageData.json";
+import imageData from "../../images/projectImages/json/imageData.json";
 import { useNavigate } from "react-router-dom";
 
 const BigProjectCard = () => {
