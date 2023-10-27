@@ -1,12 +1,11 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import Slider from "../swiper/Slider";
-import Icons from "../icons/Icons";
+import Icons from "../../icons/Icons";
 import styles from "./styles/singleProject.module.css";
 import { useTranslation } from "react-i18next";
-import { projectCardProps } from "../../interfaces/projectCardProps";
-import projectCardImageData from "../../images/projectImages/json/imageData.json";
-import { ProjectImageProps } from "../../interfaces/projectImage";
+import { projectCardProps } from "../../../interfaces/projectCardProps";
+import projectCardImageData from "../../../images/projectImages/json/imageData.json";
+import { ProjectImageProps } from "../../../interfaces/projectImage";
 
 const SingleProject = () => {
   const [t] = useTranslation("global");
@@ -66,9 +65,6 @@ const SingleProject = () => {
           <h3>{project?.description}</h3>
           <p>{project?.story}</p>
         </div>
-      </div>
-      <div className="image-slider">
-        <Slider images={projectImage[0]?.images} projectName={project.name} />
       </div>
     </>
   );

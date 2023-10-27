@@ -1,9 +1,5 @@
 .single-project-container {
   color: var(--white);
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .image-info-container {
@@ -64,12 +60,10 @@
 
 .project-story-container {
   width: 60%;
-  padding: 2rem;
 }
 
 .project-story-container h3 {
-
-  padding-bottom: 2rem;
+  padding: 2rem 0;
 }
 
 .project-story-container p {
@@ -77,3 +71,28 @@
   font-weight: var(--font-weight-thin);
 }
 
+@media only screen and (max-width: 1280px) {
+  .image {
+    height: 400px;
+  }
+.info{
+  width: 30%;
+}
+}
+
+@media only screen and (max-width: 900px) {
+  .image {
+    height: auto;
+  }
+  .info {
+    position: static;
+    width: 100%; 
+    bottom: 0; 
+    margin: 0;
+    padding: .5rem;
+   
+  }
+  .project-story-container{
+    width: 100%;
+  }
+}

@@ -202,6 +202,19 @@
             { "name": "tømrer", "icon": "LiaHammerSolid" },
             { "name": "montering", "icon": "LiaToolsSolid" }
           ]
+        },
+        {
+          "id": 10,
+          "name": "Project 10",
+          "timezone": "Nov 21 - Aug 23",
+          "startDate": "2023-09-01",
+          "location": "Sandefjord",
+          "description": "This is the description for Project 9.",
+          "story": "Våre erfarne tømrere og snekkere utførte omfattende reparasjoner og skapte skreddersydde løsninger som har gjenopplivet den historiske sjarmen til prosjektet. Samtidig sørget våre dedikerte montører for presis montering av moderne fasiliteter, som har resultert i en perfekt balanse mellom det nostalgiske og det moderne. Dette harmoniske samspillet mellom gammelt og nytt har ført til et slående resultat som ikke bare oppfyller funksjonelle behov, men også fremhever den unike karakteren til hvert eneste aspekt av prosjektet.",
+          "services": [
+            { "name": "tømrer", "icon": "LiaHammerSolid" },
+            { "name": "montering", "icon": "LiaToolsSolid" }
+          ]
         }
       ]
     },

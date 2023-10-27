@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import LinkProjects from "../links/LinkProjects";
-import ProjectsCards from "./ProjectsCards";
+import LinkProjects from "../../links/LinkProjects";
+import ProjectsCards from "../projectCards/ProjectsCards";
 import styles from "./styles/homeProjectsSection.module.css";
 
 const HomeProjectsSection = () => {

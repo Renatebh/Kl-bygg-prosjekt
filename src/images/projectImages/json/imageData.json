@@ -102,5 +102,17 @@
       "/src/images/projectImages/project-9/city.jpg",
       "/src/images/projectImages/project-9/city.jpg"
     ]
+  },
+  {
+    "id": 10,
+    "projectName": "Project 10",
+    "image": "/src/images/projectImages/project-10/skyscrapers.jpg",
+
+    "images": [
+      "/src/images/projectImages/project-9/city.jpg",
+      "/src/images/projectImages/project-9/city.jpg",
+      "/src/images/projectImages/project-9/city.jpg",
+      "/src/images/projectImages/project-9/city.jpg"
+    ]
   }
 ]

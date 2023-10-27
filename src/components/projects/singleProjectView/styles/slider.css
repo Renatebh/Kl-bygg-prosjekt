@@ -1,0 +1,16 @@
+.swiper-pagination-bullet-active {
+    background-color: red;
+    color: red;
+  }
+  
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    color: var(--red);
+  }
+
+  @media only screen and (max-width: 900px) {
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+      font-size: 10px;
+    }
+  }

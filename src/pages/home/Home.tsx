@@ -2,7 +2,7 @@ import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/header/Navbar";
 import HeroSection from "../../components/hero/HeroSection";
 import JobOpportunities from "../../components/jobOpportunities/JobOpportunities";
-import HomeProjectsSection from "../../components/projects/HomeProjectsSection";
+import HomeProjectsSection from "../../components/projects/homePageProjectSection/HomeProjectsSection";
 import HomeServices from "../../components/services/HomeServices";
 import styles from "./home.module.css";
 

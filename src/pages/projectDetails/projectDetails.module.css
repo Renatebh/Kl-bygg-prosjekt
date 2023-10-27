@@ -12,6 +12,11 @@
   padding: var(--section-padding-web);
 }
 
+.slider{
+  background-color: var(--grey);
+  position: relative;
+}
+
 .contact-block {
   display: flex;
   justify-content: center;
