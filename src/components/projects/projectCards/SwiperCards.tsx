@@ -1,8 +1,8 @@
 
-import { useState } from 'react';
-// import { useNavigate } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y, Thumbs } from 'swiper/modules';
+import { Navigation, Pagination, Thumbs } from 'swiper/modules';
 import { Swiper as SwiperType } from 'swiper/react';
 import styles from './styles/swiperCards.module.css'
 
@@ -22,17 +22,7 @@ interface SwiperType {
 const SwiperCards = () => {
     const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | any>(null);
 
-    console.log(imageData)
-    // const navigate = useNavigate();
-
-    // const projects = projectsData.main.projects.projectCards;
-
-
-    // const sortedProjects = projects.sort((a, b) => {
-    //     const dateA = new Date(a.startDate);
-    //     const dateB = new Date(b.startDate);
-    //     return dateB.getTime() - dateA.getTime();
-    // });
+    const navigate = useNavigate();
 
     const allImages = imageData.flatMap((project) =>
         project.images.map((imagePath) => ({
@@ -42,36 +32,53 @@ const SwiperCards = () => {
         }))
     );
 
-    // const latestProject = allImages[0];
-    // const restProjects = allImages.slice(1);
+    const handleCardClick = (id: number) => {
+        navigate(`/projects/${id}`);
+        console.log(`Card with project ID ${id} clicked`);
+    };
 
-    // const handleCardClick = (id: number) => {
-    //     navigate(`/projects/${id}`);
-    //   };
+    const breakpoints = {
+        0:{
+            slidesPerView: 2
+        },
+        768: {
+            slidesPerView: 2, // Number of slides to show for screens wider or equal to 768px
+        },
+        1024: {
+            slidesPerView: 3, // Number of slides to show for screens wider or equal to 1024px
+        },
+        1440: {
+            slidesPerView: 4, // Number of slides to show for screens wider or equal to 1440px
+        },
+    };
+
 
     return (
         <div className={styles['swiper-container']}>
             <Swiper
-                modules={[Navigation, Pagination, Scrollbar, A11y, Thumbs]}
+                modules={[Navigation, Pagination, Thumbs]}
                 thumbs={{ swiper: thumbsSwiper }}
                 slidesPerView={1}
                 navigation={true}
                 pagination={{ clickable: true }}
+
             >
                 {projectsData.main.projects.projectCards.map((project) => {
                     const image = allImages.find((img) => img.projectId === project.id);
                     if (image) {
                         return (
                             <SwiperSlide key={project.id}>
-                                <img
-                                    src={image.image}
-                                    alt={`slide ${project.name}`}
-                                    className={styles['main-image']}
-                                />
-                                <div className={styles["text-box"]}>
-                                            <h3 className={styles["project-name"]}>{project.name}</h3>
-                                            <p className={styles["project-date"]}> {project.timezone}</p>
-                                        </div>
+                                <div onClick={() => handleCardClick(project.id)}>
+                                    <img
+                                        src={image.image}
+                                        alt={`slide ${project.name}`}
+                                        className={styles['main-image']}
+                                    />
+                                    <div className={styles["text-box"]}>
+                                        <h3 className={styles["project-name"]}>{project.name}</h3>
+                                        <p className={styles["project-date"]}> {project.timezone}</p>
+                                    </div>
+                                </div>
                             </SwiperSlide>
                         );
                     }
@@ -79,11 +86,12 @@ const SwiperCards = () => {
                 })}
             </Swiper>
             <Swiper
-                slidesPerView={3}
+                slidesPerView={4}
                 spaceBetween={30}
                 modules={[Thumbs]}
                 watchSlidesProgress
                 onSwiper={(swiper: SwiperType) => setThumbsSwiper(swiper)}
+                breakpoints={breakpoints}
             >
                 {projectsData.main.projects.projectCards.map((project) => (
                     <SwiperSlide key={project.id}>
@@ -96,9 +104,10 @@ const SwiperCards = () => {
                                             alt={`slide ${project.name}`}
                                             className={styles['thumbnail-image']}
                                         />
-                                        <div className={styles["text-box"]}>
-                                            <h3 className={styles["project-name"]}>{project.name}</h3>
-                                            <p className={styles["project-date"]}> {project.timezone}</p>
+
+                                        <div className={styles["text-box-slider-cards"]}>
+                                            <h3 className={styles["project-name-slider-cards"]}>{project.name}</h3>
+                                            <p className={styles["project-date-slider-card"]}> {project.timezone}</p>
                                         </div>
                                     </div>
 

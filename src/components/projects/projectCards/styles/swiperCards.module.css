@@ -1,30 +1,141 @@
-.swiper-container{
-display: block;
+.swiper-container {
+    display: block;
 }
 
-.main-image{
+.image-container {
+    position: relative;
+}
+
+.main-image {
     width: 100%;
     height: 600px;
     object-fit: cover;
     margin-bottom: 2rem;
+    transition: .2s ease;
 }
 
-.slider-image{
+.main-image:hover {
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.project-name {
+    color: var(--white);
+    font-size: var(--p--step-2);
+}
+
+.project-date {
+    color: var(--red);
+    font-size: var(--p--step-0);
+}
+
+
+.slider-image {
     width: 350px;
     height: 300px;
 }
 
-.image-container{
-    position: relative;
-}
-
-.text-box{
+.text-box {
+    background-color: var(--darkGrey);
     position: absolute;
     right: 0;
-    bottom: 35px;
-    z-index: 100;
-    width: 400px;
-    height: 200px;
+    bottom: 0;
+    width: 30%;
+    height: 20%;
+    padding: 1rem 0 0 1rem;
+
+}
+
+/* Small images slider */
+
+.thumbnail-container {
+    width: 350px;
+}
+
+.thumbnail-image {
+    width: 100%;
+}
+
+.text-box-slider-cards {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 0;
     background-color: var(--darkGrey);
+    width: 200px;
+    height: 72px;
+    padding: 1rem 0 0 1rem;
+
+}
+
+.text-box-slider-cards h3 {
+    font-size: var(--p--step-0);
     color: var(--white);
+}
+
+.text-box-slider-cards p {
+    color: var(--red);
+}
+
+@media screen and (max-width: 1280px) {
+    .thumbnail-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-image {
+        height: 500px;
+    }
+
+    .text-box {
+        /* height: 22%; */
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .text-box-slider-cards {
+        width: auto;
+        padding: .5rem .5rem 0 .5rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .main-image {
+        height: auto;
+    }
+
+    .text-box {
+        width: auto;
+        height: 24%;
+        padding: 1rem;
+    }
+
+    .text-box-slider-cards {
+        height: auto;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .text-box-slider-cards p {
+        display: none;
+        height: auto;
+
+    }
+    .text-box p {
+        display: none;
+        height: auto;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .text-box {
+        height: 32%;
+        padding: .5rem;
+
+    }
+
 }
