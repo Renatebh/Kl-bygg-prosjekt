@@ -31,6 +31,16 @@
   position: relative;
   z-index: 10;
   color: var(--white);
+  width: 50%;
+}
+
+.heading-section h1{
+  font-weight: var(--font-weight-thick);
+}
+.heading-section p{
+  font-size: var(--p--step-0);
+  font-weight: var(--font-weight-thin);
+  margin-top: 1rem;
 }
 
 .form-section {
@@ -49,28 +59,39 @@
 }
 
 .contact-info h3 {
-  font-size: 32px;
+  /* font-size: 32px; */
   margin-bottom: 1rem;
 }
 
 .contact-address {
   display: flex;
   flex-direction: column;
+  gap: .5rem;
   margin: 1rem 0 2rem 0;
 }
 
 .contact-address p {
-  font-size: 26px;
+  font-size: var(--p--step-0);
+  
 }
 
 .contact-info a {
   color: var(--white);
   display: flex;
+  align-items: center;
   gap: 0.5rem;
+  text-decoration: underline;
+}
+
+.contact-info a:hover{
+  cursor: pointer;
+  color: var(--red);
 }
 
 .contact-text {
-  font-size: 20px;
+  font-size: var(--p--step-0);
+  font-weight: var(--font-weight-thin);
+  
 }
 
 .form-div {
@@ -90,13 +111,12 @@
   margin-bottom: 1rem;
   color: var(--red);
   font-weight: 100;
-  font-size: 26px;
 }
 
 .employees-subheading {
   text-align: center;
   color: var(--white);
-  font-size: 32px;
+  font-size: var(--p--step-2);
   font-weight: bold;
   margin-bottom: 4rem;
 }
@@ -104,13 +124,13 @@
 .footer {
   padding: var(--section-padding-web);
   display: flex;
-  /* justify-content: center; */
   background-color: var(--grey);
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1280px) {
   .heading-section {
     padding: var(--section-padding-lap);
+    width: 60%;
   }
   .form-section {
     padding: var(--section-padding-lap);
@@ -124,24 +144,50 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .heading-section {
-    padding: var(--section-padding-mobile);
-  }
   .form-section {
-    padding: var(--section-padding-mobile);
     flex-direction: column;
+    gap: 1rem;
   }
   .form-div {
     width: 100%;
   }
   .contact-info {
     width: 100%;
+    padding: 0;
   }
   .employees-section {
-    padding: var(--section-padding-mobile);
     justify-content: center;
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-section {
+    padding: var(--section-padding-tab);
+  }
+  .form-section {
+    padding: var(--section-padding-tab);
+  }
+  .employees-section {
+    padding: var(--section-padding-tab);
+  }
   .footer {
-    padding: var(--section-padding-mobile);
+    padding: var(--section-padding-tab);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .heading-section {
+    padding: var(--section-padding-mob);
+    width: 80%;
+
+  }
+  .form-section {
+    padding: var(--section-padding-mob);
+  }
+  .employees-section {
+    padding: var(--section-padding-mob);
+  }
+  .footer {
+    padding: var(--section-padding-mob);
   }
 }
